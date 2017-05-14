@@ -1,5 +1,5 @@
 //
-//  NetworkBaseUtility.swift
+//  GbNetworkBaseUtility.swift
 //  glbuyer-buyer-ios
 //
 //  Created by Jausing Wang on 2017/4/27.
@@ -13,7 +13,7 @@ typealias SuccessCalllback = (_ code:Int?,_ message:String?, _ data: [String:Any
 typealias FailureCallback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
 typealias VoidCallback = () -> Void
 
-class NetworkBaseUtility {
+public class GbNetworkBaseUtility {
     
     static let NETWORK_FAILURE_CODE = 500
     
@@ -29,7 +29,7 @@ class NetworkBaseUtility {
         }
     }
     
-    static let afManager = NetworkBaseUtility.defaultAlamofireSessionManager()
+    static let afManager = GbNetworkBaseUtility.defaultAlamofireSessionManager()
     
     fileprivate class func alamofireSessionManager(withTimeout isLongTimeOut:Bool, hasAuthorizationHeader: Bool) -> SessionManager{
 
