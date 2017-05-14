@@ -38,7 +38,9 @@ Pod::Spec.new do |s|
   s.dependency 'Alamofire', '~> 4.4'
 
   # 8
-  s.source_files = "GbKit/Extensions/*.{swift}"
+  s.subspec 'Extensions' do |cs|    
+    s.source_files = "GbKit/Extensions/*.{swift}"
+  end
 
   # 9
   s.resources = "GbKit/**/*.{png,jpeg,jpg,storyboard,xib}"
