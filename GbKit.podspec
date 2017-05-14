@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
 
   # 8
   s.subspec 'Extensions' do |cs|    
-    s.source_files = "GbKit/Extensions/*.{swift}", 'GbKit/Extensions'
+    cs.source_files = "GbKit/Extensions/*.{swift}", 'GbKit/Extensions'
   end
 
   # 9
