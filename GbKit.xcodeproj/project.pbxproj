@@ -12,8 +12,6 @@
 		987574F81EC5F92B004B847E /* GbKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 987574EA1EC5F92B004B847E /* GbKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		987575031EC608AC004B847E /* GbStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575021EC608AC004B847E /* GbStringExtension.swift */; };
 		987575051EC60930004B847E /* GbUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575041EC60930004B847E /* GbUIColorExtension.swift */; };
-		987575071EC60B8F004B847E /* NSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575061EC60B8F004B847E /* NSDateExtension.swift */; };
-		987575091EC818FF004B847E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575081EC818FF004B847E /* File.swift */; };
 		FEC00832F7D65A9128208614 /* Pods_GbKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B661B6E2C4F278C90922ED /* Pods_GbKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +35,6 @@
 		987574F71EC5F92B004B847E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987575021EC608AC004B847E /* GbStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbStringExtension.swift; sourceTree = "<group>"; };
 		987575041EC60930004B847E /* GbUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbUIColorExtension.swift; sourceTree = "<group>"; };
-		987575061EC60B8F004B847E /* NSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDateExtension.swift; sourceTree = "<group>"; };
-		987575081EC818FF004B847E /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D2B661B6E2C4F278C90922ED /* Pods_GbKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GbKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEE3660B275F45E86A3F8E4 /* Pods-GbKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GbKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GbKit/Pods-GbKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,11 +91,9 @@
 		987574E91EC5F92B004B847E /* GbKit */ = {
 			isa = PBXGroup;
 			children = (
-				987575061EC60B8F004B847E /* NSDateExtension.swift */,
 				987575011EC6081B004B847E /* Extensions */,
 				987574EA1EC5F92B004B847E /* GbKit.h */,
 				987574EB1EC5F92B004B847E /* Info.plist */,
-				987575081EC818FF004B847E /* File.swift */,
 			);
 			path = GbKit;
 			sourceTree = "<group>";
@@ -278,8 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				987575071EC60B8F004B847E /* NSDateExtension.swift in Sources */,
-				987575091EC818FF004B847E /* File.swift in Sources */,
 				987575031EC608AC004B847E /* GbStringExtension.swift in Sources */,
 				987575051EC60930004B847E /* GbUIColorExtension.swift in Sources */,
 			);

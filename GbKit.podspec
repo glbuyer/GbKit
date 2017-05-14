@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
 
   # 8
   s.source_files = "GbKit/**/*.{swift}"
+  s.source_files = "GbKit/Extensions/*.{swift}"
 
   # 9
   s.resources = "GbKit/**/*.{png,jpeg,jpg,storyboard,xib}"
