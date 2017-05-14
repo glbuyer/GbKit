@@ -5,5 +5,6 @@ target 'GbKit' do
     inhibit_all_warnings!
     
     pod 'Alamofire', '~> 4.4'
+    pod 'ObjectMapper', '~> 2.2'
 
 end

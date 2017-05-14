@@ -36,10 +36,15 @@ Pod::Spec.new do |s|
   # 7
   s.framework = "UIKit"
   s.dependency 'Alamofire', '~> 4.4'
+  s.dependency 'ObjectMapper', '~> 2.2'
 
   # 8
   s.subspec 'Extensions' do |cs|    
     cs.source_files = "GbKit/Extensions/*.{swift}", 'GbKit/Extensions'
+  end
+
+  s.subspec 'Utilities' do |cs|    
+    cs.source_files = "GbKit/Utilities/*.{swift}", 'GbKit/Utilities'
   end
 
   # 9
