@@ -9,9 +9,9 @@
 import Foundation
 import Alamofire
 
-typealias SuccessCalllback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
-typealias FailureCallback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
-typealias VoidCallback = () -> Void
+public typealias SuccessCalllback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
+public typealias FailureCallback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
+public typealias VoidCallback = () -> Void
 
 public class GbNetworkBaseUtility {
     
@@ -64,7 +64,7 @@ public class GbNetworkBaseUtility {
     
     
 
-    class func networkGetRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
+    public class func networkGetRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
         
         let paraSend = (parameters?.count == 0 ? nil : parameters)
         
@@ -81,7 +81,7 @@ public class GbNetworkBaseUtility {
         
     }
     
-    class func networkPostRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
+    public class func networkPostRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
 
         let paraSend = (parameters?.count == 0 ? nil : parameters)
 
@@ -98,7 +98,7 @@ public class GbNetworkBaseUtility {
         
     }
     
-    class func networkDeleteRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
+    public class func networkDeleteRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
 
         let paraSend = (parameters?.count == 0 ? nil : parameters)
 
