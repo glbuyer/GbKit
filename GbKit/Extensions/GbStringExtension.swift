@@ -11,19 +11,19 @@ import UIKit
 
 extension String {
     
-    func toInt() -> Int {
+    public func toInt() -> Int {
         
         return Int(self)!
         
     }
     
-    func toURL() -> URL {
+    public func toURL() -> URL {
         
         return URL(string: self)!
         
     }
     
-    func toUIColor() -> UIColor {
+    public func toUIColor() -> UIColor {
         
         return UIColor(string: self)
         
