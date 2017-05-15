@@ -9,8 +9,8 @@
 import Foundation
 import Alamofire
 
-public typealias SuccessCalllback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
-public typealias FailureCallback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
+public typealias GbNetworkRequestSuccessCallback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
+public typealias GbNetworkRequestFailureCallback = (_ code:Int?,_ message:String?, _ data: [String:Any]?) -> Void
 public typealias VoidCallback = () -> Void
 
 public class GbNetworkBaseUtility {
@@ -49,7 +49,7 @@ public class GbNetworkBaseUtility {
         return alamofireSessionManager(withTimeout: true, hasAuthorizationHeader: true)
     }
     
-    public class func handleResponseResult(withResult result: [String:Any], success: SuccessCalllback, failure: FailureCallback) {
+    public class func handleResponseResult(withResult result: [String:Any], success: GbNetworkRequestSuccessCallback, failure: GbNetworkRequestFailureCallback) {
 
         if result["code"] as! Int == 0 {
             success(result["code"] as? Int,result["message"] as? String,result["data"] as? Dictionary)
@@ -64,7 +64,7 @@ public class GbNetworkBaseUtility {
     
     
 
-    public class func networkGetRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
+    public class func networkGetRequest(withURL url: String, parameters: [String:Any]?, success: @escaping GbNetworkRequestSuccessCallback, failure: @escaping GbNetworkRequestFailureCallback) {
         
         let paraSend = (parameters?.count == 0 ? nil : parameters)
         
@@ -81,7 +81,7 @@ public class GbNetworkBaseUtility {
         
     }
     
-    public class func networkPostRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
+    public class func networkPostRequest(withURL url: String, parameters: [String:Any]?, success: @escaping GbNetworkRequestSuccessCallback, failure: @escaping GbNetworkRequestFailureCallback) {
 
         let paraSend = (parameters?.count == 0 ? nil : parameters)
 
@@ -98,7 +98,7 @@ public class GbNetworkBaseUtility {
         
     }
     
-    public class func networkDeleteRequest(withURL url: String, parameters: [String:Any]?, success: @escaping SuccessCalllback, failure: @escaping FailureCallback) {
+    public class func networkDeleteRequest(withURL url: String, parameters: [String:Any]?, success: @escaping GbNetworkRequestSuccessCallback, failure: @escaping GbNetworkRequestFailureCallback) {
 
         let paraSend = (parameters?.count == 0 ? nil : parameters)
 
