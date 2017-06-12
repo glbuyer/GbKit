@@ -29,7 +29,7 @@ extension String {
         
     }
     
-    func toUrlEncode() -> String {
+    public func toUrlEncode() -> String {
         
         return self.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)!
         
