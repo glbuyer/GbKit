@@ -60,9 +60,6 @@ public class GbNetworkBaseUtility {
         }
         
     }
-    
-    
-    
 
     public class func networkGetRequest(withURL url: String, parameters: [String:Any]?, success: @escaping GbNetworkRequestSuccessCallback, failure: @escaping GbNetworkRequestFailureCallback) {
         
