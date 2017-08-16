@@ -52,6 +52,8 @@ class GBProduct:BaseModel {
     //商品服务描述
     var productServiceDescs = [GBCell]()
 
+    //商品扩展内容
+    var prodcutExtensions = [GBProductExtension]()
 
     // Mappable
     override func mapping(map: Map) {

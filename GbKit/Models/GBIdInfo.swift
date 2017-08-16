@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 
-class IdInfo:BaseModel {
+class GBIdInfo:BaseModel {
     
     //用户ID
     var userId:String = ""

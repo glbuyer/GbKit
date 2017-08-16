@@ -18,7 +18,7 @@ class GBProductSubtypeItem:BaseModel {
     //分类条目名称
     var defaultSubtypeItemName = ""
     //分类图片
-    var subtypeItemImageUrl = ""
+    var subtypeItemImageURL = ""
         
     // Mappable
     override func mapping(map: Map) {

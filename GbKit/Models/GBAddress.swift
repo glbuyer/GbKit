@@ -37,7 +37,7 @@ class GBAddress:BaseModel {
     //最佳送货时间
     var bestTime:String = ""
     //收货人身份信息
-    var idInfo:IdInfo = IdInfo()!
+    var idInfo = GBIdInfo()
     //是否为默认地址
     var setAsDefault = false
 
@@ -45,22 +45,6 @@ class GBAddress:BaseModel {
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)
-        
-        addressId <- map["address_id"]
-        userId <- map["user_id"]
-        country <- map["country"]
-        stateProvince <- map["state_province"]
-        city <- map["city"]
-        district <- map["district"]
-        address <- map["address"]
-        zipcode <- map["zipcode"]
-        tel <- map["tel"]
-        mobile <- map["mobile"]
-        receviverName <- map["receiver_name"]
-        bestTime <- map["best_time"]
-        idInfo <- map["id_info"]
-        
-        setAsDefault <- map["is_set_as_default"]
         
         
     }
