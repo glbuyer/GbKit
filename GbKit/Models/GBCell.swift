@@ -14,7 +14,7 @@ enum GBCellType : String {
     case OTHER_CELL = "OTHER_CELL"
 }
 
-class GBCell:BaseModel {
+class GBCell:GBBaseModel {
     
     
     var cellType = GBCellType.OTHER_CELL

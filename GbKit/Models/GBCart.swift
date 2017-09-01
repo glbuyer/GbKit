@@ -1,23 +1,18 @@
 //
-//  GBOrderItem.swift
+//  GBCart.swift
 //  GbKit
 //
-//  Created by Ye Gu on 16/8/17.
+//  Created by Ye Gu on 1/9/17.
 //  Copyright © 2017 glbuyer. All rights reserved.
 //
 
 import Foundation
 import ObjectMapper
 
-
-
-class GBOrderItem:GBProductItem {
+class GBCart:GBBaseModel {
     
-    //订单条目ID
-    var orderItemId = ""
-    //订单ID
-    var orderId = ""
-    
+    //购物车条目id
+    var shoppingCartItemId = ""
     
     // Mappable
     override func mapping(map: Map) {

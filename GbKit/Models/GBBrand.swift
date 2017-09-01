@@ -11,7 +11,7 @@ import Foundation
 import ObjectMapper
 
 
-class GBBrand:BaseModel {
+class GBBrand:GBBaseModel {
     
     //品牌ID
     var brandId = ""

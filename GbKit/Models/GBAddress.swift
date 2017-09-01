@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 
-class GBAddress:BaseModel {
+class GBAddress:GBBaseModel {
     
     //地点编号
     var addressId:String = UUID().uuidString

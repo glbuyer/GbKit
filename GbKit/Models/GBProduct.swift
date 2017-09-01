@@ -10,7 +10,7 @@ import Foundation
 import ObjectMapper
 
 
-class GBProduct:BaseModel {
+class GBProduct:GBBaseModel {
     
     //商品ID
     var productId = ""
@@ -18,8 +18,6 @@ class GBProduct:BaseModel {
     var productShortName  = ""
     //商品长名字
     var productFullName  = ""
-    //商品主图
-    var productImageURL = ""
     //商品Gallery
     var productGalleryImageURLs  = [String]()
     //商品详情图
@@ -44,8 +42,6 @@ class GBProduct:BaseModel {
     var localShopPrice = 0.00
     //商品来源地
     var productFromArea = GBArea()
-    //商品标签
-    var productTags = [GBTag]()
     
     //商品简述
     var productBriefDescs = [GBCell]()
@@ -54,6 +50,9 @@ class GBProduct:BaseModel {
 
     //商品扩展内容
     var prodcutExtensions = [GBProductExtension]()
+    
+    //商品标签
+    var productTags = [GBTag]()
 
     // Mappable
     override func mapping(map: Map) {

@@ -14,7 +14,7 @@ enum GBTagType : String {
     case OTHER_TAG = "OTHER_TAG"
 }
 
-class GBTag:BaseModel {
+class GBTag:GBBaseModel {
     
     //标签ID
     var tagId = ""

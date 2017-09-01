@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class GBUser:BaseModel {
+class GBUser:GBBaseModel {
     
     //用户ID
     var userId = ""

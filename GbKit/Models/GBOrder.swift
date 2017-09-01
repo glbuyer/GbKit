@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-enum OrderDiscountMethod : String {
+enum GBOrderDiscountMethod : String {
     
     //无优惠
     case NO_PROMOTION = "NO_PROMOTION"
@@ -21,7 +21,7 @@ enum OrderDiscountMethod : String {
     case PROMOTION_COIN = "PROMOTION_COIN"
     
 }
-enum OrderBuyerAssignMethod : String {
+enum GBOrderBuyerAssignMethod : String {
     
     //指定买手
     case MANULLY_ASSIGN_BUYER = "MANULLY_ASSIGN_BUYER"
@@ -29,7 +29,7 @@ enum OrderBuyerAssignMethod : String {
     case SNATCH_ORDER_BUYER = "SNATCH_ORDER_BUYER"
     
 }
-enum OrderStatus : String {
+enum GBOrderStatus : String {
     
     //等待付款
     case WAIT_FOR_PAYMENT = "WAIT_FOR_PAYMENT"
@@ -50,7 +50,16 @@ enum OrderStatus : String {
 
 }
 
-class GBOrder:BaseModel {
+enum GBCustomerOrderOperations : String {
+    
+    //付款
+    case TO_PAY_ORDER = "TO_PAY_ORDER"
+    //查看物流
+    case TO_VIEW_SHIPPING_INFO = "TO_VIEW_SHIPPING_INFO"
+    
+}
+
+class GBOrder:GBBaseModel {
     
     //订单ID
     var orderId = ""
@@ -71,30 +80,44 @@ class GBOrder:BaseModel {
 
     //商品总价
     var defaultProductAmount = 0.00
+    var localProductAmount = 0.00
+    
     //运费总价
     var defaultShippingFeeAmount = 0.00
+    var localShippingFeeAmount = 0.00
+
     //订单总价
     var defaultOrderAmount = 0.00
+    var localOrderAmount = 0.00
+
+    
     //买家原实付款
     var defaultCustomerInitialPayAmount = 0.00
+    var localCustomerInitialPayAmount = 0.00
+
+    
     //退款成功总金额
     var defaultRefundAmount = 0.00
+    
+    
     //买家去除退款后实付款
     var defaultCustomerPayAmountExcludeRefundAmount = 0.00
+    var localCustomerPayAmountExcludeRefundAmount = 0.00
+
     
     //买家优惠方式
-    var customerDiscountMethod = OrderDiscountMethod.NO_PROMOTION
+    var customerDiscountMethod = GBOrderDiscountMethod.NO_PROMOTION
     //买家优惠激活码
     var customerDiscountActivationCode = ""
     //买家优惠数额
-    var customerDiscountAmount = 0.00
+    var defaultCustomerDiscountAmount = 0.00
     
     //买手优惠方式
-    var buyerDiscountMethod = OrderDiscountMethod.NO_PROMOTION
+    var buyerDiscountMethod = GBOrderDiscountMethod.NO_PROMOTION
     //买手优惠激活码
     var buyerDiscountActivationCode = ""
     //买手优惠数额
-    var buyerDiscountAmount = 0.00
+    var defaultBuyerDiscountAmount = 0.00
 
 
     

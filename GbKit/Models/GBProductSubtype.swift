@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class GBProductSubtype:BaseModel {
+class GBProductSubtype:GBBaseModel {
     
     //商品ID
     var productId = ""

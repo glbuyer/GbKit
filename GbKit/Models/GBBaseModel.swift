@@ -11,7 +11,7 @@ import ObjectMapper
 
 
 
-open class BaseModel:Mappable{
+open class GBBaseModel:Mappable{
     
     var createdAt = ""
     var updatedAt = ""

@@ -1,22 +1,15 @@
 //
-//  GBOrderItem.swift
+//  GBPreOrderProductItem.swift
 //  GbKit
 //
-//  Created by Ye Gu on 16/8/17.
+//  Created by Ye Gu on 1/9/17.
 //  Copyright © 2017 glbuyer. All rights reserved.
 //
 
 import Foundation
 import ObjectMapper
 
-
-
-class GBOrderItem:GBProductItem {
-    
-    //订单条目ID
-    var orderItemId = ""
-    //订单ID
-    var orderId = ""
+class GBPreOrderProductItem:GBCartItem {
     
     
     // Mappable
@@ -25,7 +18,5 @@ class GBOrderItem:GBProductItem {
         
         
     }
-    
-    
     
 }

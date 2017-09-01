@@ -11,14 +11,14 @@ import Foundation
 import ObjectMapper
 
 
-class GBCategory:BaseModel {
+class GBCategory:GBBaseModel {
     
     //分类ID
     var categoryId = ""
     //默认品牌名称
     var defaultBrandName = ""
     //默认品牌logo
-    var defaultBrandLogoImageURL = ""
+    var defaultBrandLogoImageURLs = [String]()
     
     // Mappable
     override func mapping(map: Map) {
