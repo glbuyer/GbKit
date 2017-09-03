@@ -9,6 +9,33 @@
 import Foundation
 import ObjectMapper
 
+enum GBUserGenderType : String {
+    
+    //男
+    case MALE = "MALE"
+    //女
+    case FEMALE = "FEMALE"
+    //未知
+    case UNKNOWN = "UNKNOWN"
+
+    
+}
+
+enum GBUserOnlineStatus : String {
+    
+    //用户上线
+    case ONLINE = "ONLINE"
+    //用户下线
+    case OFFLINE = "OFFLINE"
+    //未知
+    case UNKNOWN = "UNKNOWN"
+    
+    
+}
+
+
+
+
 class GBUser:GBBaseModel {
     
     //用户ID
@@ -25,6 +52,23 @@ class GBUser:GBBaseModel {
     var bindingChatId = ""
     //是否是买手
     var isBuyer = false
+    
+    //用户性别
+    var userGenderType = GBUserGenderType.UNKNOWN
+
+    //最近位置纬度
+    var lastLatitude:Double?
+    //最近位置纬度
+    var lastLongitude:Double?
+    //上次标记在线状态
+    var lastMarkOnlineStatus = GBUserOnlineStatus.UNKNOWN
+    
+    
+    //推广码
+    var promotionCode = ""
+    
+    //地点
+    var lastArea = GBArea()
 
     
     // Mappable

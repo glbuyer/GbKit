@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		983B3A2C1F590A3A00C02D33 /* GBCommentToProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2B1F590A3A00C02D33 /* GBCommentToProduct.swift */; };
+		983B3A2C1F590A3A00C02D33 /* GBCommentToOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2B1F590A3A00C02D33 /* GBCommentToOrderItem.swift */; };
 		983B3A2E1F590A4800C02D33 /* GBCommentToBuyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2D1F590A4800C02D33 /* GBCommentToBuyer.swift */; };
 		983B3A301F590A6600C02D33 /* GBCommentToCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2F1F590A6600C02D33 /* GBCommentToCustomer.swift */; };
 		983B3A321F590A9000C02D33 /* GBPreOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A311F590A9000C02D33 /* GBPreOrders.swift */; };
@@ -38,6 +38,9 @@
 		98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0911F5913A600E998BC /* GBPromotion.swift */; };
 		98BEF0941F5918CA00E998BC /* GBCurrencyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */; };
 		98BEF0971F59217100E998BC /* GBCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0961F59217100E998BC /* GBCart.swift */; };
+		98BEF0991F5AEE8800E998BC /* GBCommentToOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0981F5AEE8800E998BC /* GBCommentToOrder.swift */; };
+		98BEF09B1F5AF2C500E998BC /* GBComment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF09A1F5AF2C500E998BC /* GBComment.swift */; };
+		98BEF09D1F5C0BE600E998BC /* GBOrderOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF09C1F5C0BE600E998BC /* GBOrderOperation.swift */; };
 		98D7AE931EC8203D003F1AC5 /* GbNetworkBaseUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7AE921EC8203D003F1AC5 /* GbNetworkBaseUtility.swift */; };
 		98EFB3201F3D74180026B000 /* GBAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB31F1F3D74180026B000 /* GBAddress.swift */; };
 		98EFB3241F3D745C0026B000 /* GBBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB3231F3D745C0026B000 /* GBBaseModel.swift */; };
@@ -62,7 +65,7 @@
 
 /* Begin PBXFileReference section */
 		518C6A0A5147A6880CD4751D /* Pods-GbKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GbKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GbKit/Pods-GbKit.debug.xcconfig"; sourceTree = "<group>"; };
-		983B3A2B1F590A3A00C02D33 /* GBCommentToProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToProduct.swift; sourceTree = "<group>"; };
+		983B3A2B1F590A3A00C02D33 /* GBCommentToOrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToOrderItem.swift; sourceTree = "<group>"; };
 		983B3A2D1F590A4800C02D33 /* GBCommentToBuyer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToBuyer.swift; sourceTree = "<group>"; };
 		983B3A2F1F590A6600C02D33 /* GBCommentToCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToCustomer.swift; sourceTree = "<group>"; };
 		983B3A311F590A9000C02D33 /* GBPreOrders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPreOrders.swift; sourceTree = "<group>"; };
@@ -96,6 +99,9 @@
 		98BEF0911F5913A600E998BC /* GBPromotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPromotion.swift; sourceTree = "<group>"; };
 		98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCurrencyExchange.swift; sourceTree = "<group>"; };
 		98BEF0961F59217100E998BC /* GBCart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCart.swift; sourceTree = "<group>"; };
+		98BEF0981F5AEE8800E998BC /* GBCommentToOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToOrder.swift; sourceTree = "<group>"; };
+		98BEF09A1F5AF2C500E998BC /* GBComment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBComment.swift; sourceTree = "<group>"; };
+		98BEF09C1F5C0BE600E998BC /* GBOrderOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBOrderOperation.swift; sourceTree = "<group>"; };
 		98D7AE921EC8203D003F1AC5 /* GbNetworkBaseUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbNetworkBaseUtility.swift; sourceTree = "<group>"; };
 		98EFB31F1F3D74180026B000 /* GBAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBAddress.swift; sourceTree = "<group>"; };
 		98EFB3231F3D745C0026B000 /* GBBaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBBaseModel.swift; sourceTree = "<group>"; };
@@ -204,6 +210,7 @@
 				98AACBE51F43CD200083BC37 /* GBCell.swift */,
 				98EFB31F1F3D74180026B000 /* GBAddress.swift */,
 				98EFB3251F3D79030026B000 /* GBIdInfo.swift */,
+				98BEF09C1F5C0BE600E998BC /* GBOrderOperation.swift */,
 				98EFB3271F42CF7E0026B000 /* GBProduct.swift */,
 				98EFB32B1F42D2C20026B000 /* GBProductSubtype.swift */,
 				98EFB32C1F42D2C20026B000 /* GBProductSubtypeItem.swift */,
@@ -221,9 +228,11 @@
 				98BEF0911F5913A600E998BC /* GBPromotion.swift */,
 				98AACBF11F43E1080083BC37 /* GBDelegateBuyer.swift */,
 				986F1DA91F457A4700FA3872 /* GBDelegateOrder.swift */,
-				983B3A2B1F590A3A00C02D33 /* GBCommentToProduct.swift */,
+				98BEF09A1F5AF2C500E998BC /* GBComment.swift */,
+				983B3A2B1F590A3A00C02D33 /* GBCommentToOrderItem.swift */,
 				983B3A2D1F590A4800C02D33 /* GBCommentToBuyer.swift */,
 				983B3A2F1F590A6600C02D33 /* GBCommentToCustomer.swift */,
+				98BEF0981F5AEE8800E998BC /* GBCommentToOrder.swift */,
 				983B3A311F590A9000C02D33 /* GBPreOrders.swift */,
 				98BEF08F1F59136400E998BC /* GBPreOrdersOption.swift */,
 				983B3A331F590AB000C02D33 /* GBPreOrderSection.swift */,
@@ -401,10 +410,13 @@
 				98EFB3301F42D6D10026B000 /* GBBrand.swift in Sources */,
 				98EFB3201F3D74180026B000 /* GBAddress.swift in Sources */,
 				98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */,
+				98BEF0991F5AEE8800E998BC /* GBCommentToOrder.swift in Sources */,
 				98AACBE41F43C8E90083BC37 /* GBTag.swift in Sources */,
 				983B3A2E1F590A4800C02D33 /* GBCommentToBuyer.swift in Sources */,
 				98EFB32E1F42D2C20026B000 /* GBProductSubtypeItem.swift in Sources */,
+				98BEF09B1F5AF2C500E998BC /* GBComment.swift in Sources */,
 				98AACBE61F43CD200083BC37 /* GBCell.swift in Sources */,
+				98BEF09D1F5C0BE600E998BC /* GBOrderOperation.swift in Sources */,
 				983B3A361F590B6C00C02D33 /* GBProductItem.swift in Sources */,
 				983B3A3E1F590EF000C02D33 /* GBMap.swift in Sources */,
 				98AACBF21F43E1080083BC37 /* GBDelegateBuyer.swift in Sources */,
@@ -421,7 +433,7 @@
 				98EFB3241F3D745C0026B000 /* GBBaseModel.swift in Sources */,
 				98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */,
 				98AACBE81F43D45A0083BC37 /* GBOrder.swift in Sources */,
-				983B3A2C1F590A3A00C02D33 /* GBCommentToProduct.swift in Sources */,
+				983B3A2C1F590A3A00C02D33 /* GBCommentToOrderItem.swift in Sources */,
 				98AACBF61F43F8030083BC37 /* GBProductExtension.swift in Sources */,
 				986F1DAA1F457A4700FA3872 /* GBDelegateOrder.swift in Sources */,
 				98EFB3341F42D9020026B000 /* GBCategory.swift in Sources */,

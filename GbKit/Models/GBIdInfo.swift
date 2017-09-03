@@ -9,6 +9,18 @@
 import Foundation
 import ObjectMapper
 
+enum GBIdInfoType : String {
+    
+    //中国身份证
+    case CHINA_ID = "CHINA_ID"
+    //驾照
+    case DRIVING_LICENSE = "DRIVING_LICENSE"
+    //护照
+    case POSSPORT = "POSSPORT"
+    //其他
+    case OTHER = "OTHER"
+    
+}
 
 class GBIdInfo:GBBaseModel {
     
@@ -23,7 +35,7 @@ class GBIdInfo:GBBaseModel {
     //证件背面照片
     var userIdBackImgUrl = ""
     //证件类型
-    var userIdType = ""
+    var userIdType = GBIdInfoType.CHINA_ID
 
     
     // Mappable
@@ -35,7 +47,8 @@ class GBIdInfo:GBBaseModel {
         userIdCode <- map["user_id_code"]
         userIdFrontImgUrl <- map["user_id_front_img_url"]
         userIdBackImgUrl <- map["user_id_back_img_url"]
-        userIdType <- map["user_id_type"]
+
+        userIdType <- (map["user_id_type"],EnumTransform<GBIdInfoType>())
 
         
     }

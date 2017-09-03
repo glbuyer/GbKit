@@ -46,6 +46,24 @@ class GBAddress:GBBaseModel {
     override func mapping(map: Map) {
         super.mapping(map: map)
         
+        addressId <- map["address_id"]
+        userId <- map["user_id"]
+        
+        country <- map["country"]
+        stateProvince <- map["state_province"]
+        city <- map["city"]
+        district <- map["district"]
+        address <- map["address"]
+        zipcode <- map["zipcode"]
+        tel <- map["tel"]
+        mobile <- map["mobile"]
+        receviverName <- map["receiver_name"]
+
+        bestTime <- map["best_time"]
+        idInfo <- map["id_info"]
+
+        setAsDefault <- map["is_set_as_default"]
+
         
     }
     

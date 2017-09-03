@@ -12,7 +12,7 @@ import ObjectMapper
 enum PreOrderBuyerAssignMethod : String {
     
     //指定买手
-    case MANULLY_ASSIGN_BUYER = "MANULLY_ASSIGN_BUYER"
+    case MANUALLY_ASSIGN_BUYER = "MANUALLY_ASSIGN_BUYER"
     //一键抢单
     case SNATCH_ORDER_BUYER = "SNATCH_ORDER_BUYER"
     
@@ -35,7 +35,10 @@ class GBPreOrderSection:GBBaseModel {
     //买手分配方式
     var assignBuyerMethod = PreOrderBuyerAssignMethod.SNATCH_ORDER_BUYER
     
-    //地图信息
+    //默认买手
+    var defaultBuyer:GBBuyer?
+    
+    //地图 与 买手 信息
     var buyersWithMap = GBBuyersWithMap()
     
     // Mappable

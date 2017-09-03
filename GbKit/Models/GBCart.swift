@@ -11,8 +11,15 @@ import ObjectMapper
 
 class GBCart:GBBaseModel {
     
-    //购物车条目id
-    var shoppingCartItemId = ""
+    //购物车条目
+    var shoppingCartItems = [GBCartItem]()
+    
+    //买手信息
+    var buyer:GBBuyer?
+    
+    //地区信息
+    var area:GBArea?
+    
     
     // Mappable
     override func mapping(map: Map) {

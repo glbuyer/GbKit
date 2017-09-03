@@ -109,15 +109,21 @@ class GBOrder:GBBaseModel {
     var customerDiscountMethod = GBOrderDiscountMethod.NO_PROMOTION
     //买家优惠激活码
     var customerDiscountActivationCode = ""
+    
     //买家优惠数额
     var defaultCustomerDiscountAmount = 0.00
+    //当地货币 买家优惠数额
+    var localCustomerDiscountAmount = 0.00
     
     //买手优惠方式
     var buyerDiscountMethod = GBOrderDiscountMethod.NO_PROMOTION
     //买手优惠激活码
     var buyerDiscountActivationCode = ""
-    //买手优惠数额
+ 
+    //当地货币 买手优惠数额
     var defaultBuyerDiscountAmount = 0.00
+    var localBuyerDiscountAmount = 0.00
+
 
 
     
@@ -141,12 +147,27 @@ class GBOrder:GBBaseModel {
     //订单关闭时间
     var orderCloseTime = ""
     
+    //订单取消原因
+    var orderCancelReason = ""
+    //订单关闭原因
+    var orderCloseReason = ""
+    
     
     
     //订单标签
     var orderTags = [GBTag]()
     //订单条目
     var orderItems = [GBOrderItem]()
+    
+    
+    //订单当前状态标题
+    var statusTitle = ""
+    //订单当前状态副标题
+    var statusSubTitle = ""
+    //订单中心 当前状态指示
+    var orderCenterStatusHint = ""
+
+    var nextStatusTime = -1
     
     
     // Mappable

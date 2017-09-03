@@ -7,3 +7,23 @@
 //
 
 import Foundation
+import ObjectMapper
+
+
+class GBCommentToCustomer:GBComment {
+    
+    
+    //买家
+    var buyer = GBCustomer()
+    
+    
+    // Mappable
+    override func mapping(map: Map) {
+        super.mapping(map: map)
+        
+        
+    }
+    
+    
+    
+}

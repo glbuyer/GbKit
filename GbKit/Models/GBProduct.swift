@@ -18,7 +18,11 @@ class GBProduct:GBBaseModel {
     var productShortName  = ""
     //商品长名字
     var productFullName  = ""
-    //商品Gallery
+    
+    //商品主图
+    var productMainImageURL  = ""
+    
+    //商品Gallery (不包含主图)
     var productGalleryImageURLs  = [String]()
     //商品详情图
     var productDescImageURLs  = [String]()
@@ -42,6 +46,9 @@ class GBProduct:GBBaseModel {
     var localShopPrice = 0.00
     //商品来源地
     var productFromArea = GBArea()
+    
+    
+    
     
     //商品简述
     var productBriefDescs = [GBCell]()

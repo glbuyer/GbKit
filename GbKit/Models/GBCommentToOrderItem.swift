@@ -1,5 +1,5 @@
 //
-//  GBCommentToBuyer.swift
+//  GBCommentToOrderItem.swift
 //  GbKit
 //
 //  Created by Ye Gu on 1/9/17.
@@ -10,11 +10,12 @@ import Foundation
 import ObjectMapper
 
 
-class GBCommentToBuyer:GBComment {
+class GBCommentToOrderItem:GBComment {
     
+
+    //商品条目
+    var orderItem = GBOrderItem()
     
-    //买手
-    var buyer = GBBuyer()
     
     
     // Mappable

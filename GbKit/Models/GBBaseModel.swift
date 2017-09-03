@@ -9,7 +9,27 @@
 import Foundation
 import ObjectMapper
 
+enum GBViewType : String {
+    
+    //买家端商品主页
+    case CUSTOMER_PRODUCT_HOMEPAGE = "CUSTOMER_PRODUCT_HOMEPAGE"
+    //买家端地图主页
+    case CUSTOMER_MAP_HOMEPAGE = "CUSTOMER_MAP_HOMEPAGE"
+    //买家端商品分类主页
+    case CUSTOMER_CATEGORY_ROOT = "CUSTOMER_CATEGORY_ROOT"
+    //买家端购物车页面
+    case CUSTOMER_CART = "CUSTOMER_CART"
+    //买家端个人中心
+    case CUSTOMER_USER_CENTER = "CUSTOMER_USER_CENTER"
+    
+    
+    //买家端订单中心
+    case CUSTOMER_ORDER_CENTER = "CUSTOMER_ORDER_CENTER"
+    //买家端订单详情
+    case CUSTOMER_ORDER_DETAIL = "CUSTOMER_ORDER_DETAIL"
 
+    case OTHER_VIEW = "OTHER_VIEW"
+}
 
 open class GBBaseModel:Mappable{
     

@@ -22,7 +22,7 @@ class GBArea:GBBaseModel {
     var areaImageURL = ""
     
     //位置信息
-    var map = GBMap()
+    var mapInfo = GBMap()
     
     //当地邮费信息
     var localShippingFeePerKg:Double = 0.0
