@@ -80,7 +80,8 @@ class GBBuyer:GBCustomer {
     //对于该买手的评论总数
     var commentToBuyerAmount = 0
     
-    
+    //注册地
+    var registerAreaName = ""
     
     // Mappable
     override func mapping(map: Map) {
