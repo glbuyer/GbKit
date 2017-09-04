@@ -25,6 +25,10 @@ class GBCart:GBBaseModel {
     override func mapping(map: Map) {
         super.mapping(map: map)
         
+        shoppingCartItems <- map["shopping_cart_items"]
+        buyer <- map["buyer"]
+        area <- map["area"]
+
         
     }
     

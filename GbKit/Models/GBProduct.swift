@@ -19,6 +19,20 @@ class GBProduct:GBBaseModel {
     //商品长名字
     var productFullName  = ""
     
+    
+    
+    //商品中文名
+    var productNameZH  = ""
+    //商品英文名
+    var productNameEN  = ""
+    
+    //商品规格内容
+    var productSp = ""
+    
+    
+    
+    
+    
     //商品主图
     var productMainImageURL  = ""
     

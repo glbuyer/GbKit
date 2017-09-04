@@ -17,6 +17,11 @@ class GBBrand:GBBaseModel {
     var brandId = ""
     //默认品牌名称
     var defaultBrandName = ""
+    
+    
+    //默认品牌名称
+    var brandNameZH = ""
+    
     //默认品牌logo
     var defaultBrandLogoURL = ""
     
