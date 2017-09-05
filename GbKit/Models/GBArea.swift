@@ -30,6 +30,7 @@ class GBArea:GBBaseModel {
     //当地货币单位
     var localCurrenyType = GBCurrencyType.AUD
     
+
     
     // Mappable
     override func mapping(map: Map) {

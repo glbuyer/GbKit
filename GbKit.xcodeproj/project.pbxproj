@@ -34,6 +34,8 @@
 		98AACBF21F43E1080083BC37 /* GBDelegateBuyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBF11F43E1080083BC37 /* GBDelegateBuyer.swift */; };
 		98AACBF41F43F3540083BC37 /* GBOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBF31F43F3540083BC37 /* GBOrderItem.swift */; };
 		98AACBF61F43F8030083BC37 /* GBProductExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBF51F43F8030083BC37 /* GBProductExtension.swift */; };
+		98AF6D431F5E356C00140AE5 /* GBShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF6D421F5E356C00140AE5 /* GBShop.swift */; };
+		98AF6D451F5E35D800140AE5 /* GBProductForShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF6D441F5E35D800140AE5 /* GBProductForShop.swift */; };
 		98BEF0901F59136400E998BC /* GBPreOrdersOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF08F1F59136400E998BC /* GBPreOrdersOption.swift */; };
 		98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0911F5913A600E998BC /* GBPromotion.swift */; };
 		98BEF0941F5918CA00E998BC /* GBCurrencyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */; };
@@ -95,6 +97,8 @@
 		98AACBF11F43E1080083BC37 /* GBDelegateBuyer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBDelegateBuyer.swift; sourceTree = "<group>"; };
 		98AACBF31F43F3540083BC37 /* GBOrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBOrderItem.swift; sourceTree = "<group>"; };
 		98AACBF51F43F8030083BC37 /* GBProductExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductExtension.swift; sourceTree = "<group>"; };
+		98AF6D421F5E356C00140AE5 /* GBShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBShop.swift; sourceTree = "<group>"; };
+		98AF6D441F5E35D800140AE5 /* GBProductForShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForShop.swift; sourceTree = "<group>"; };
 		98BEF08F1F59136400E998BC /* GBPreOrdersOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPreOrdersOption.swift; sourceTree = "<group>"; };
 		98BEF0911F5913A600E998BC /* GBPromotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPromotion.swift; sourceTree = "<group>"; };
 		98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCurrencyExchange.swift; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 				98AACBF31F43F3540083BC37 /* GBOrderItem.swift */,
 				98AACBE91F43DFE50083BC37 /* GBUser.swift */,
 				98AACBEB1F43DFF50083BC37 /* GBAdmin.swift */,
+				98AF6D421F5E356C00140AE5 /* GBShop.swift */,
+				98AF6D441F5E35D800140AE5 /* GBProductForShop.swift */,
 				98AACBED1F43E0020083BC37 /* GBCustomer.swift */,
 				98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */,
 				98AACBEF1F43E0FB0083BC37 /* GBBuyer.swift */,
@@ -427,12 +433,14 @@
 				98BEF0941F5918CA00E998BC /* GBCurrencyExchange.swift in Sources */,
 				983B3A321F590A9000C02D33 /* GBPreOrders.swift in Sources */,
 				983B3A3A1F590D3800C02D33 /* GBPreOrderProductItem.swift in Sources */,
+				98AF6D431F5E356C00140AE5 /* GBShop.swift in Sources */,
 				98AACBF01F43E0FB0083BC37 /* GBBuyer.swift in Sources */,
 				983B3A341F590AB000C02D33 /* GBPreOrderSection.swift in Sources */,
 				98EFB32D1F42D2C20026B000 /* GBProductSubtype.swift in Sources */,
 				98EFB3241F3D745C0026B000 /* GBBaseModel.swift in Sources */,
 				98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */,
 				98AACBE81F43D45A0083BC37 /* GBOrder.swift in Sources */,
+				98AF6D451F5E35D800140AE5 /* GBProductForShop.swift in Sources */,
 				983B3A2C1F590A3A00C02D33 /* GBCommentToOrderItem.swift in Sources */,
 				98AACBF61F43F8030083BC37 /* GBProductExtension.swift in Sources */,
 				986F1DAA1F457A4700FA3872 /* GBDelegateOrder.swift in Sources */,

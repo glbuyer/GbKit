@@ -74,6 +74,9 @@ class GBProduct:GBBaseModel {
     
     //商品标签
     var productTags = [GBTag]()
+    
+    //商品商店信息
+    var shops = [GBProductForShop]()
 
     // Mappable
     override func mapping(map: Map) {
