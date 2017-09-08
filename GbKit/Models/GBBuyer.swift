@@ -18,6 +18,9 @@ class GBBuyer:GBCustomer {
     var salesAmount = 0
     //买手保证金
     var asBuyerDeposit:Double = 0.00
+    //买手保证金缴纳目标
+    var asBuyerDepositTarget:Double = 200
+
     
     //作为时尚买手销售额
     var fashionBuyerSaleAmount:Double = 0.00
