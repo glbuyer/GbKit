@@ -15,6 +15,10 @@ enum GBViewType : String {
     case CUSTOMER_PRODUCT_HOMEPAGE = "CUSTOMER_PRODUCT_HOMEPAGE"
     //买家端地图主页
     case CUSTOMER_MAP_HOMEPAGE = "CUSTOMER_MAP_HOMEPAGE"
+    //买家端商品列表
+    case CUSTOMER_PRODUCT_LIST = "CUSTOMER_PRODUCT_LIST"
+
+    
     //买家端商品分类主页
     case CUSTOMER_CATEGORY_ROOT = "CUSTOMER_CATEGORY_ROOT"
     //买家端购物车页面

@@ -22,6 +22,10 @@ class GBPreOrdersOption:GBBaseModel {
     //买家优惠标记
     var discountValuePromotionSelection = ""
     
+    //买家优惠名称
+    var discountNameDisplay = GBCustomerDiscountName.noPromotion
+    //买家优惠描述
+    var discountDescDisplay = ""
     
     // Mappable
     override func mapping(map: Map) {

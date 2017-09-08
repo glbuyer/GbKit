@@ -28,9 +28,10 @@ class GBArea:GBBaseModel {
     var localShippingFeePerKg:Double = 0.0
     
     //当地货币单位
-    var localCurrenyType = GBCurrencyType.AUD
+    var localCurrencyType = GBCurrencyType.AUD
     
-
+    //兑换人民币
+    var currencyExchangeToCNY = GBCurrencyExchange()
     
     // Mappable
     override func mapping(map: Map) {

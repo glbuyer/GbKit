@@ -170,6 +170,11 @@ class GBOrder:GBBaseModel {
     var nextStatusTime = -1
     
     
+    //订单所属地区
+    var orderArea = GBArea()
+    
+  
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

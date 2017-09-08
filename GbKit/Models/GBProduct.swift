@@ -20,18 +20,7 @@ class GBProduct:GBBaseModel {
     var productFullName  = ""
     
     
-    
-    //商品中文名
-    var productNameZH  = ""
-    //商品英文名
-    var productNameEN  = ""
-    
-    //商品规格内容
-    var productSp = ""
-    
-    
-    
-    
+
     
     //商品主图
     var productMainImageURL  = ""
@@ -61,7 +50,8 @@ class GBProduct:GBBaseModel {
     //商品来源地
     var productFromArea = GBArea()
     
-    
+    //邮费计算参与因子
+    var shippingFeeCalculationFactor = 0.00
     
     
     //商品简述
@@ -77,6 +67,10 @@ class GBProduct:GBBaseModel {
     
     //商品商店信息
     var shops = [GBProductForShop]()
+    
+    
+    
+    
 
     // Mappable
     override func mapping(map: Map) {

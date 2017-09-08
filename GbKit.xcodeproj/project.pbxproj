@@ -36,6 +36,7 @@
 		98AACBF61F43F8030083BC37 /* GBProductExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBF51F43F8030083BC37 /* GBProductExtension.swift */; };
 		98AF6D431F5E356C00140AE5 /* GBShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF6D421F5E356C00140AE5 /* GBShop.swift */; };
 		98AF6D451F5E35D800140AE5 /* GBProductForShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF6D441F5E35D800140AE5 /* GBProductForShop.swift */; };
+		98AF6D471F60352F00140AE5 /* GBProductForCustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF6D461F60352F00140AE5 /* GBProductForCustomerView.swift */; };
 		98BEF0901F59136400E998BC /* GBPreOrdersOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF08F1F59136400E998BC /* GBPreOrdersOption.swift */; };
 		98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0911F5913A600E998BC /* GBPromotion.swift */; };
 		98BEF0941F5918CA00E998BC /* GBCurrencyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */; };
@@ -99,6 +100,7 @@
 		98AACBF51F43F8030083BC37 /* GBProductExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductExtension.swift; sourceTree = "<group>"; };
 		98AF6D421F5E356C00140AE5 /* GBShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBShop.swift; sourceTree = "<group>"; };
 		98AF6D441F5E35D800140AE5 /* GBProductForShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForShop.swift; sourceTree = "<group>"; };
+		98AF6D461F60352F00140AE5 /* GBProductForCustomerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForCustomerView.swift; sourceTree = "<group>"; };
 		98BEF08F1F59136400E998BC /* GBPreOrdersOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPreOrdersOption.swift; sourceTree = "<group>"; };
 		98BEF0911F5913A600E998BC /* GBPromotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBPromotion.swift; sourceTree = "<group>"; };
 		98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCurrencyExchange.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 				98EFB3251F3D79030026B000 /* GBIdInfo.swift */,
 				98BEF09C1F5C0BE600E998BC /* GBOrderOperation.swift */,
 				98EFB3271F42CF7E0026B000 /* GBProduct.swift */,
+				98AF6D461F60352F00140AE5 /* GBProductForCustomerView.swift */,
 				98EFB32B1F42D2C20026B000 /* GBProductSubtype.swift */,
 				98EFB32C1F42D2C20026B000 /* GBProductSubtypeItem.swift */,
 				98EFB32F1F42D6D10026B000 /* GBBrand.swift */,
@@ -415,6 +418,7 @@
 				987575031EC608AC004B847E /* GbStringExtension.swift in Sources */,
 				98EFB3301F42D6D10026B000 /* GBBrand.swift in Sources */,
 				98EFB3201F3D74180026B000 /* GBAddress.swift in Sources */,
+				98AF6D471F60352F00140AE5 /* GBProductForCustomerView.swift in Sources */,
 				98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */,
 				98BEF0991F5AEE8800E998BC /* GBCommentToOrder.swift in Sources */,
 				98AACBE41F43C8E90083BC37 /* GBTag.swift in Sources */,

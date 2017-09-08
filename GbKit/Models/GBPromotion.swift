@@ -35,6 +35,19 @@ enum GBCustomerDiscountMethod : String {
     
 }
 
+enum GBCustomerDiscountName : String {
+    
+    //无优惠
+    case noPromotion = "不使用优惠"
+    //通用礼品卡
+    case giftCard = "礼品卡"
+    //通用优惠券
+    case coupon = "优惠券"
+    //通用推广币
+    case promotionCoin = "推广币"
+    
+}
+
 class GBPromotion:GBBaseModel {
     
     //优惠方式

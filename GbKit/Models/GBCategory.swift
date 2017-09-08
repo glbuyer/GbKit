@@ -15,10 +15,10 @@ class GBCategory:GBBaseModel {
     
     //分类ID
     var categoryId = ""
-    //默认品牌名称
-    var defaultBrandName = ""
-    //默认品牌logo
-    var defaultBrandLogoImageURLs = [String]()
+    //父分类ID
+    var parentId = ""
+    //默认分类名称
+    var defaultCategoryName = ""
     
     // Mappable
     override func mapping(map: Map) {
