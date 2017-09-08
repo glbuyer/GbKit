@@ -33,6 +33,18 @@ enum GBUserOnlineStatus : String {
     
 }
 
+enum GBUserPromotionCodeType : String {
+    
+    //普通用户
+    case normal = "NORMAL"
+    //普通企业用户
+    case normalCompany = "NORMAL_COMPANY"
+    //未知
+    case unknown = "UNKNOWN"
+    
+    
+}
+
 
 
 
@@ -66,7 +78,16 @@ class GBUser:GBBaseModel {
     
     //推广码
     var promotionCode = ""
+    //推广码二维码QR code url
+    var promotion_code_qr_url = ""
+    //推广码类型
+    var promotionCodeType = GBUserPromotionCodeType.unknown
     
+    //是否能修改用户名
+    var ifAllowChangeBindingUsername = false
+    //是否用户已看过优惠券
+    var ifUserAlreadyViewCoupon = false
+
     //地点
     var lastArea = GBArea()
 
