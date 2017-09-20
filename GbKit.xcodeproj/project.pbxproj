@@ -23,6 +23,8 @@
 		987574F81EC5F92B004B847E /* GbKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 987574EA1EC5F92B004B847E /* GbKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		987575031EC608AC004B847E /* GbStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575021EC608AC004B847E /* GbStringExtension.swift */; };
 		987575051EC60930004B847E /* GbUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575041EC60930004B847E /* GbUIColorExtension.swift */; };
+		98991F0D1F67B9F7000F8D8F /* GBProductForBuyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */; };
+		98991F0F1F67BA0F000F8D8F /* GBProductForAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */; };
 		98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE11F43C64B0083BC37 /* GBArea.swift */; };
 		98AACBE41F43C8E90083BC37 /* GBTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE31F43C8E90083BC37 /* GBTag.swift */; };
 		98AACBE61F43CD200083BC37 /* GBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE51F43CD200083BC37 /* GBCell.swift */; };
@@ -53,6 +55,7 @@
 		98EFB32E1F42D2C20026B000 /* GBProductSubtypeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB32C1F42D2C20026B000 /* GBProductSubtypeItem.swift */; };
 		98EFB3301F42D6D10026B000 /* GBBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB32F1F42D6D10026B000 /* GBBrand.swift */; };
 		98EFB3341F42D9020026B000 /* GBCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EFB3331F42D9020026B000 /* GBCategory.swift */; };
+		98F190DC1F626D21000DF010 /* GBArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F190DB1F626D21000DF010 /* GBArticle.swift */; };
 		FEC00832F7D65A9128208614 /* Pods_GbKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2B661B6E2C4F278C90922ED /* Pods_GbKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +90,8 @@
 		987574F71EC5F92B004B847E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987575021EC608AC004B847E /* GbStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbStringExtension.swift; sourceTree = "<group>"; };
 		987575041EC60930004B847E /* GbUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbUIColorExtension.swift; sourceTree = "<group>"; };
+		98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForBuyerView.swift; sourceTree = "<group>"; };
+		98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForAdminView.swift; sourceTree = "<group>"; };
 		98AACBE11F43C64B0083BC37 /* GBArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBArea.swift; sourceTree = "<group>"; };
 		98AACBE31F43C8E90083BC37 /* GBTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBTag.swift; sourceTree = "<group>"; };
 		98AACBE51F43CD200083BC37 /* GBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCell.swift; sourceTree = "<group>"; };
@@ -117,6 +122,7 @@
 		98EFB32C1F42D2C20026B000 /* GBProductSubtypeItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductSubtypeItem.swift; sourceTree = "<group>"; };
 		98EFB32F1F42D6D10026B000 /* GBBrand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBBrand.swift; sourceTree = "<group>"; };
 		98EFB3331F42D9020026B000 /* GBCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCategory.swift; sourceTree = "<group>"; };
+		98F190DB1F626D21000DF010 /* GBArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBArticle.swift; sourceTree = "<group>"; };
 		D2B661B6E2C4F278C90922ED /* Pods_GbKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GbKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEE3660B275F45E86A3F8E4 /* Pods-GbKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GbKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-GbKit/Pods-GbKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -216,9 +222,12 @@
 				98AACBE51F43CD200083BC37 /* GBCell.swift */,
 				98EFB31F1F3D74180026B000 /* GBAddress.swift */,
 				98EFB3251F3D79030026B000 /* GBIdInfo.swift */,
+				98F190DB1F626D21000DF010 /* GBArticle.swift */,
 				98BEF09C1F5C0BE600E998BC /* GBOrderOperation.swift */,
 				98EFB3271F42CF7E0026B000 /* GBProduct.swift */,
 				98AF6D461F60352F00140AE5 /* GBProductForCustomerView.swift */,
+				98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */,
+				98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */,
 				98EFB32B1F42D2C20026B000 /* GBProductSubtype.swift */,
 				98EFB32C1F42D2C20026B000 /* GBProductSubtypeItem.swift */,
 				98EFB32F1F42D6D10026B000 /* GBBrand.swift */,
@@ -418,6 +427,7 @@
 				987575031EC608AC004B847E /* GbStringExtension.swift in Sources */,
 				98EFB3301F42D6D10026B000 /* GBBrand.swift in Sources */,
 				98EFB3201F3D74180026B000 /* GBAddress.swift in Sources */,
+				98F190DC1F626D21000DF010 /* GBArticle.swift in Sources */,
 				98AF6D471F60352F00140AE5 /* GBProductForCustomerView.swift in Sources */,
 				98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */,
 				98BEF0991F5AEE8800E998BC /* GBCommentToOrder.swift in Sources */,
@@ -447,6 +457,8 @@
 				98AF6D451F5E35D800140AE5 /* GBProductForShop.swift in Sources */,
 				983B3A2C1F590A3A00C02D33 /* GBCommentToOrderItem.swift in Sources */,
 				98AACBF61F43F8030083BC37 /* GBProductExtension.swift in Sources */,
+				98991F0F1F67BA0F000F8D8F /* GBProductForAdminView.swift in Sources */,
+				98991F0D1F67B9F7000F8D8F /* GBProductForBuyerView.swift in Sources */,
 				986F1DAA1F457A4700FA3872 /* GBDelegateOrder.swift in Sources */,
 				98EFB3341F42D9020026B000 /* GBCategory.swift in Sources */,
 				983B3A381F590C9100C02D33 /* GBCartItem.swift in Sources */,

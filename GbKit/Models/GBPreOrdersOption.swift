@@ -27,6 +27,9 @@ class GBPreOrdersOption:GBBaseModel {
     //买家优惠描述
     var discountDescDisplay = ""
     
+
+    
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

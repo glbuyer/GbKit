@@ -41,6 +41,15 @@ class GBPreOrderSection:GBBaseModel {
     //地图 与 买手 信息
     var buyersWithMap = GBBuyersWithMap()
     
+    //商品参与计算总重量
+    var productItemWeightForShippingAmount:Double = 0.00
+    
+    //商品显示总重量
+    var productItemWeightAmount:Double = 0.00
+    
+    //商品总价 + 对应邮费
+    var productsWithShippingAmount:Double = 0.00
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

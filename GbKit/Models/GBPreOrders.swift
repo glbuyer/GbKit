@@ -24,6 +24,18 @@ class GBPreOrders:GBBaseModel {
     //选项
     var preOrdersOptions = [GBPreOrdersOption]()
     
+    //结算前提示
+    var checkoutHintMessage = ""
+    
+    //可免运费重量返回提示
+    var productWeightShippingFeeHintMessage = ""
+    
+    //总重量 参与运费计算
+    var productItemWeightForShippingAmounts:Double = 0
+    
+    //显示总重量
+    var productItemWeightAmounts:Double = 0
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

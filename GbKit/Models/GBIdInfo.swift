@@ -9,6 +9,8 @@
 import Foundation
 import ObjectMapper
 
+
+
 enum GBIdInfoType : String {
     
     //中国身份证
