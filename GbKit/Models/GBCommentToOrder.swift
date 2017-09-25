@@ -24,10 +24,8 @@ class GBCommentToOrder:GBBaseModel {
     //对于买手的评价
     var commentToBuyer:GBCommentToBuyer?
     
-    //对于买买家的评价
-    var commentTocustomer:GBCommentToCustomer?
-    
-    
+    //买家
+    var customer:GBCustomer?
 
     // Mappable
     override func mapping(map: Map) {
