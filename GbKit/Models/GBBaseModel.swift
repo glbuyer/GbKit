@@ -34,6 +34,9 @@ enum GBViewType : String {
     case CUSTOMER_ORDER_CENTER = "CUSTOMER_ORDER_CENTER"
     //买家端订单详情
     case CUSTOMER_ORDER_DETAIL = "CUSTOMER_ORDER_DETAIL"
+    
+    //买手端 买手发布商品
+    case BUYER_PUBLISH_PRODUCT = "BUYER_PUBLISH_PRODUCT"
 
     case OTHER_VIEW = "OTHER_VIEW"
 }

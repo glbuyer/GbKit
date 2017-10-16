@@ -86,6 +86,9 @@ class GBBuyer:GBCustomer {
     //注册地
     var registerAreaName = ""
     
+    //买手主页 bar 背景图
+    var homepageBackgroundImageUrl = ""
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

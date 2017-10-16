@@ -65,6 +65,12 @@ class GBProduct:GBBaseModel {
     //商品商店信息
     var shops = [GBProductForShop]()
     
+    //输入性质商品采购渠道
+    var otherShoppingFromPlaces = ""
+    
+    //输入性质商品子分类
+    var otherSubtypes = ""
+    
     
     //商品预设价格
     var preSetLocalCostPrice = 0.00

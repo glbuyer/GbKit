@@ -23,6 +23,7 @@
 		987574F81EC5F92B004B847E /* GbKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 987574EA1EC5F92B004B847E /* GbKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		987575031EC608AC004B847E /* GbStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575021EC608AC004B847E /* GbStringExtension.swift */; };
 		987575051EC60930004B847E /* GbUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987575041EC60930004B847E /* GbUIColorExtension.swift */; };
+		9877469E1F947B8300DED880 /* GBProductOtherSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877469D1F947B8300DED880 /* GBProductOtherSubtype.swift */; };
 		98991F0D1F67B9F7000F8D8F /* GBProductForBuyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */; };
 		98991F0F1F67BA0F000F8D8F /* GBProductForAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */; };
 		98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE11F43C64B0083BC37 /* GBArea.swift */; };
@@ -90,6 +91,7 @@
 		987574F71EC5F92B004B847E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		987575021EC608AC004B847E /* GbStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbStringExtension.swift; sourceTree = "<group>"; };
 		987575041EC60930004B847E /* GbUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GbUIColorExtension.swift; sourceTree = "<group>"; };
+		9877469D1F947B8300DED880 /* GBProductOtherSubtype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductOtherSubtype.swift; sourceTree = "<group>"; };
 		98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForBuyerView.swift; sourceTree = "<group>"; };
 		98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForAdminView.swift; sourceTree = "<group>"; };
 		98AACBE11F43C64B0083BC37 /* GBArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBArea.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				98BEF09C1F5C0BE600E998BC /* GBOrderOperation.swift */,
 				98EFB3271F42CF7E0026B000 /* GBProduct.swift */,
 				98AF6D461F60352F00140AE5 /* GBProductForCustomerView.swift */,
+				9877469D1F947B8300DED880 /* GBProductOtherSubtype.swift */,
 				98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */,
 				98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */,
 				98EFB32B1F42D2C20026B000 /* GBProductSubtype.swift */,
@@ -423,6 +426,7 @@
 				98AACBF41F43F3540083BC37 /* GBOrderItem.swift in Sources */,
 				98BEF0901F59136400E998BC /* GBPreOrdersOption.swift in Sources */,
 				983B3A301F590A6600C02D33 /* GBCommentToCustomer.swift in Sources */,
+				9877469E1F947B8300DED880 /* GBProductOtherSubtype.swift in Sources */,
 				98D7AE931EC8203D003F1AC5 /* GbNetworkBaseUtility.swift in Sources */,
 				987575031EC608AC004B847E /* GbStringExtension.swift in Sources */,
 				98EFB3301F42D6D10026B000 /* GBBrand.swift in Sources */,

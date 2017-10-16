@@ -20,6 +20,12 @@ class GBCategory:GBBaseModel {
     //默认分类名称
     var defaultCategoryName = ""
     
+    //分类名称链条
+    var defaultCategoryNameChain = ""
+    
+    //分类ID链条
+    var categoryIdChain = ""
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)
