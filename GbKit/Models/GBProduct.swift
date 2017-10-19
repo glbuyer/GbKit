@@ -161,6 +161,9 @@ class GBProduct:GBBaseModel {
     
     //商品标签
     var productTags = [GBTag]()
+    
+    //该商品的促销内容显示
+    var productPromotionsDisplay = ""
 
     // Mappable
     override func mapping(map: Map) {

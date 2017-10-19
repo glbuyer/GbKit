@@ -11,6 +11,7 @@ import ObjectMapper
 
 enum GBCellType : String {
     case PRODUCT_BRIEF_DESC_CELL = "PRODUCT_BRIEF_DESC_CELL"
+    case PRODUCT_SERVICE_CELL = "PRODUCT_SERVICE_CELL"
     case OTHER_CELL = "OTHER_CELL"
 }
 

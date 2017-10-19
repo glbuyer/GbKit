@@ -39,10 +39,8 @@ class GBDelegateOrder:GBBaseModel {
     var setDelegateBuyerTime = -1
     //代发订单全集信息
     var delegateOrderFullInfo:GBOrder?
-    
     //代发买手
-    var delegateBuyer:GBDelegateOrder?
-    
+    var delegateBuyer:GBDelegateBuyer?
     //代发买手 将收款 = 未退款商品代发总价 + 未退款商品运费 + 感谢费
     var localDelegateBuyerShouldReceiveAmount = 0.00
     //代发买手 订单利润 = 

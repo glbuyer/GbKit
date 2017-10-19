@@ -113,6 +113,8 @@ class GBOrder:GBBaseModel {
     var address = GBAddress()
     //订单所属地区
     var orderArea = GBArea()
+    
+    
 
     //商品总价(原始) = sum ( 商品单价 * 商品数量 )
     var defaultProductAmount = 0.00
