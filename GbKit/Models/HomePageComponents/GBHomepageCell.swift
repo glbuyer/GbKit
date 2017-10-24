@@ -42,7 +42,6 @@ enum GBHomepageCellLinkType : String {
     case searchProductList = "SEARCH_PRODUCT_LIST"
     //买手搜索结果list
     case searchBuyerList = "SEARCH_BUYER_LIST"
-    
     //折扣商品搜索结果页面
     case searchDiscountProductList = "SEARCH_DISCOUNT_PRODUCT_LIST"
     //滚动到section
@@ -68,7 +67,7 @@ class GBHomepageCell:GBBaseModel {
     //cell 宽度 对于 750px 宽度屏幕
     var cellWidthTo750pxWidth:Double = 0
     //cell image url
-    var cellImageUrl = ""
+    var cellImageUrls = [String]()
     //cell subtitles
     var cellSubtitles = [String]()
     //cell 链接类型

@@ -16,6 +16,8 @@ enum GBHomepageBaseComponentType : String {
     case componentType1 = "COMPONENT_TYPE1"
     //风格一号
     case componentType2 = "COMPONENT_TYPE2"
+    //尾部商品
+    case productsTail = "PRODUCTS_TAIL"
     //未知
     case unknown = "UNKNOWN"
 }
