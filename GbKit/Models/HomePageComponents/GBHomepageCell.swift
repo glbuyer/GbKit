@@ -28,6 +28,8 @@ enum GBHomepageCellKeyType : String {
     case parent_sub_view_index = "PARENT_SUB_VIEW_INDEX"
     //网页链接
     case webLink = "WEB_LINK"
+    //homepage id
+    case homepageId = "HOMEPAGE_ID"
     //不可用
     case notAppliable = "N/A"
 }
@@ -56,6 +58,8 @@ enum GBHomepageCellLinkType : String {
     case webPage = "WEB_PAGE"
     //买手主页
     case buyerHomepage = "BUYER_HOMEPAGE"
+    //下一主页
+    case homepageView = "HOMEPAGE_VIEW"
     //不可用
     case notAppliable = "N/A"
 }
