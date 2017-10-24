@@ -164,6 +164,9 @@ class GBProduct:GBBaseModel {
     
     //该商品的促销内容显示
     var productPromotionsDisplay = ""
+    
+    //买手建议 cost 价格
+    var buyerSuggestLocalCostPrice = 0
 
     // Mappable
     override func mapping(map: Map) {

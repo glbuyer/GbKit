@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9826F9771F9970E700C217C4 /* GBShopBranch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9761F9970E700C217C4 /* GBShopBranch.swift */; };
+		9826F97A1F9EBD7000C217C4 /* GBHomepageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9791F9EBD7000C217C4 /* GBHomepageCell.swift */; };
+		9826F97C1F9EC09400C217C4 /* GBHomepageBaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F97B1F9EC09400C217C4 /* GBHomepageBaseComponent.swift */; };
+		9826F97E1F9EC4DB00C217C4 /* GBHomepageComponentCarouselBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F97D1F9EC4DB00C217C4 /* GBHomepageComponentCarouselBar.swift */; };
+		9826F9801F9EC69F00C217C4 /* GBHomepageComponentIconsWithBottomSubtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F97F1F9EC69F00C217C4 /* GBHomepageComponentIconsWithBottomSubtitle.swift */; };
+		9826F9821F9EDCD200C217C4 /* GBHomepageComponentType1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9811F9EDCD200C217C4 /* GBHomepageComponentType1.swift */; };
+		9826F9841F9EDDB900C217C4 /* GBHomepageComponentType2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9831F9EDDB900C217C4 /* GBHomepageComponentType2.swift */; };
+		9826F9861F9EDE7A00C217C4 /* GBHomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9851F9EDE7A00C217C4 /* GBHomepageView.swift */; };
+		9826F9881F9EE06F00C217C4 /* GBHomepageComponentGeneric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9871F9EE06F00C217C4 /* GBHomepageComponentGeneric.swift */; };
+		9826F98A1F9EEF9E00C217C4 /* GBHomepageComponentImageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9826F9891F9EEF9E00C217C4 /* GBHomepageComponentImageCollection.swift */; };
 		983B3A2C1F590A3A00C02D33 /* GBCommentToOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2B1F590A3A00C02D33 /* GBCommentToOrderItem.swift */; };
 		983B3A2E1F590A4800C02D33 /* GBCommentToBuyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2D1F590A4800C02D33 /* GBCommentToBuyer.swift */; };
 		983B3A301F590A6600C02D33 /* GBCommentToCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B3A2F1F590A6600C02D33 /* GBCommentToCustomer.swift */; };
@@ -72,6 +82,16 @@
 
 /* Begin PBXFileReference section */
 		518C6A0A5147A6880CD4751D /* Pods-GbKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GbKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GbKit/Pods-GbKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9826F9761F9970E700C217C4 /* GBShopBranch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBShopBranch.swift; sourceTree = "<group>"; };
+		9826F9791F9EBD7000C217C4 /* GBHomepageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageCell.swift; sourceTree = "<group>"; };
+		9826F97B1F9EC09400C217C4 /* GBHomepageBaseComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageBaseComponent.swift; sourceTree = "<group>"; };
+		9826F97D1F9EC4DB00C217C4 /* GBHomepageComponentCarouselBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentCarouselBar.swift; sourceTree = "<group>"; };
+		9826F97F1F9EC69F00C217C4 /* GBHomepageComponentIconsWithBottomSubtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentIconsWithBottomSubtitle.swift; sourceTree = "<group>"; };
+		9826F9811F9EDCD200C217C4 /* GBHomepageComponentType1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentType1.swift; sourceTree = "<group>"; };
+		9826F9831F9EDDB900C217C4 /* GBHomepageComponentType2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentType2.swift; sourceTree = "<group>"; };
+		9826F9851F9EDE7A00C217C4 /* GBHomepageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageView.swift; sourceTree = "<group>"; };
+		9826F9871F9EE06F00C217C4 /* GBHomepageComponentGeneric.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentGeneric.swift; sourceTree = "<group>"; };
+		9826F9891F9EEF9E00C217C4 /* GBHomepageComponentImageCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentImageCollection.swift; sourceTree = "<group>"; };
 		983B3A2B1F590A3A00C02D33 /* GBCommentToOrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToOrderItem.swift; sourceTree = "<group>"; };
 		983B3A2D1F590A4800C02D33 /* GBCommentToBuyer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToBuyer.swift; sourceTree = "<group>"; };
 		983B3A2F1F590A6600C02D33 /* GBCommentToCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCommentToCustomer.swift; sourceTree = "<group>"; };
@@ -158,6 +178,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9826F9781F9EBD0200C217C4 /* HomepageComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9826F9791F9EBD7000C217C4 /* GBHomepageCell.swift */,
+				9826F97B1F9EC09400C217C4 /* GBHomepageBaseComponent.swift */,
+				9826F97D1F9EC4DB00C217C4 /* GBHomepageComponentCarouselBar.swift */,
+				9826F97F1F9EC69F00C217C4 /* GBHomepageComponentIconsWithBottomSubtitle.swift */,
+				9826F9891F9EEF9E00C217C4 /* GBHomepageComponentImageCollection.swift */,
+				9826F9811F9EDCD200C217C4 /* GBHomepageComponentType1.swift */,
+				9826F9831F9EDDB900C217C4 /* GBHomepageComponentType2.swift */,
+				9826F9851F9EDE7A00C217C4 /* GBHomepageView.swift */,
+				9826F9871F9EE06F00C217C4 /* GBHomepageComponentGeneric.swift */,
+			);
+			name = HomepageComponents;
+			path = HomePageComponents;
+			sourceTree = "<group>";
+		};
 		987574DD1EC5F92A004B847E = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +256,7 @@
 		98EFB31E1F3D73DB0026B000 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9826F9781F9EBD0200C217C4 /* HomepageComponents */,
 				98EFB3231F3D745C0026B000 /* GBBaseModel.swift */,
 				98AACBE31F43C8E90083BC37 /* GBTag.swift */,
 				98AACBE51F43CD200083BC37 /* GBCell.swift */,
@@ -242,6 +280,7 @@
 				98AACBE91F43DFE50083BC37 /* GBUser.swift */,
 				98AACBEB1F43DFF50083BC37 /* GBAdmin.swift */,
 				98AF6D421F5E356C00140AE5 /* GBShop.swift */,
+				9826F9761F9970E700C217C4 /* GBShopBranch.swift */,
 				98AF6D441F5E35D800140AE5 /* GBProductForShop.swift */,
 				98AACBED1F43E0020083BC37 /* GBCustomer.swift */,
 				98BEF0931F5918CA00E998BC /* GBCurrencyExchange.swift */,
@@ -428,15 +467,20 @@
 				983B3A301F590A6600C02D33 /* GBCommentToCustomer.swift in Sources */,
 				9877469E1F947B8300DED880 /* GBProductOtherSubtype.swift in Sources */,
 				98D7AE931EC8203D003F1AC5 /* GbNetworkBaseUtility.swift in Sources */,
+				9826F9861F9EDE7A00C217C4 /* GBHomepageView.swift in Sources */,
 				987575031EC608AC004B847E /* GbStringExtension.swift in Sources */,
 				98EFB3301F42D6D10026B000 /* GBBrand.swift in Sources */,
+				9826F9841F9EDDB900C217C4 /* GBHomepageComponentType2.swift in Sources */,
 				98EFB3201F3D74180026B000 /* GBAddress.swift in Sources */,
+				9826F97A1F9EBD7000C217C4 /* GBHomepageCell.swift in Sources */,
+				9826F97C1F9EC09400C217C4 /* GBHomepageBaseComponent.swift in Sources */,
 				98F190DC1F626D21000DF010 /* GBArticle.swift in Sources */,
 				98AF6D471F60352F00140AE5 /* GBProductForCustomerView.swift in Sources */,
 				98BEF0921F5913A600E998BC /* GBPromotion.swift in Sources */,
 				98BEF0991F5AEE8800E998BC /* GBCommentToOrder.swift in Sources */,
 				98AACBE41F43C8E90083BC37 /* GBTag.swift in Sources */,
 				983B3A2E1F590A4800C02D33 /* GBCommentToBuyer.swift in Sources */,
+				9826F9771F9970E700C217C4 /* GBShopBranch.swift in Sources */,
 				98EFB32E1F42D2C20026B000 /* GBProductSubtypeItem.swift in Sources */,
 				98BEF09B1F5AF2C500E998BC /* GBComment.swift in Sources */,
 				98AACBE61F43CD200083BC37 /* GBCell.swift in Sources */,
@@ -446,19 +490,24 @@
 				98AACBF21F43E1080083BC37 /* GBDelegateBuyer.swift in Sources */,
 				98BEF0971F59217100E998BC /* GBCart.swift in Sources */,
 				987575051EC60930004B847E /* GbUIColorExtension.swift in Sources */,
+				9826F9821F9EDCD200C217C4 /* GBHomepageComponentType1.swift in Sources */,
 				983B3A3C1F590E5000C02D33 /* GBBuyersWithMap.swift in Sources */,
 				98EFB3261F3D79030026B000 /* GBIdInfo.swift in Sources */,
 				98BEF0941F5918CA00E998BC /* GBCurrencyExchange.swift in Sources */,
 				983B3A321F590A9000C02D33 /* GBPreOrders.swift in Sources */,
 				983B3A3A1F590D3800C02D33 /* GBPreOrderProductItem.swift in Sources */,
 				98AF6D431F5E356C00140AE5 /* GBShop.swift in Sources */,
+				9826F97E1F9EC4DB00C217C4 /* GBHomepageComponentCarouselBar.swift in Sources */,
 				98AACBF01F43E0FB0083BC37 /* GBBuyer.swift in Sources */,
+				9826F9801F9EC69F00C217C4 /* GBHomepageComponentIconsWithBottomSubtitle.swift in Sources */,
 				983B3A341F590AB000C02D33 /* GBPreOrderSection.swift in Sources */,
 				98EFB32D1F42D2C20026B000 /* GBProductSubtype.swift in Sources */,
 				98EFB3241F3D745C0026B000 /* GBBaseModel.swift in Sources */,
 				98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */,
 				98AACBE81F43D45A0083BC37 /* GBOrder.swift in Sources */,
 				98AF6D451F5E35D800140AE5 /* GBProductForShop.swift in Sources */,
+				9826F9881F9EE06F00C217C4 /* GBHomepageComponentGeneric.swift in Sources */,
+				9826F98A1F9EEF9E00C217C4 /* GBHomepageComponentImageCollection.swift in Sources */,
 				983B3A2C1F590A3A00C02D33 /* GBCommentToOrderItem.swift in Sources */,
 				98AACBF61F43F8030083BC37 /* GBProductExtension.swift in Sources */,
 				98991F0F1F67BA0F000F8D8F /* GBProductForAdminView.swift in Sources */,
