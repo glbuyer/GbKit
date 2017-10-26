@@ -9,6 +9,17 @@
 import Foundation
 import ObjectMapper
 
+enum GBUserBindingAccountType : String {
+    //电话
+    case phone = "PHONE"
+    //微信
+    case wechat = "WECHAT"
+    //邮箱
+    case email = "EMAIL"
+    //未知
+    case unknown = "UNKNOWN"
+}
+
 enum GBUserGenderType : String {
     
     //男
@@ -91,6 +102,8 @@ class GBUser:GBBaseModel {
     //地点
     var lastArea = GBArea()
 
+    //已绑定的账户类型
+    var bindingAccountTypes = [GBUserBindingAccountType]()
     
     // Mappable
     override func mapping(map: Map) {
