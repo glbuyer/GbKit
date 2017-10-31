@@ -71,6 +71,9 @@ class GBProduct:GBBaseModel {
     //输入性质商品子分类
     var otherSubtypes = ""
     
+    //输入商品品牌
+    var otherBrandName = ""
+    
     
     //商品预设价格
     var preSetLocalCostPrice = 0.00
@@ -118,8 +121,6 @@ class GBProduct:GBBaseModel {
     //单内限购数量
     var limitNumberInOrder = -1
     
-    //品牌名称 (输入性质)
-    var brandName = ""
     //最小当地市场价
     var minLocalMarketPrice:Double = 0.00
     //最大当地市场价
@@ -167,6 +168,9 @@ class GBProduct:GBBaseModel {
     
     //买手建议 cost 价格
     var buyerSuggestLocalCostPrice = 0
+    
+    //买手建议 shop 价格
+    var buyerSuggestLocalShopPrice = 0
 
     // Mappable
     override func mapping(map: Map) {
