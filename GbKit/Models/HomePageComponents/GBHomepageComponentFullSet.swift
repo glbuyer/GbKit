@@ -9,6 +9,9 @@
 import Foundation
 class GBHomepageComponentFullSet: GBHomepageBaseComponent {
     
+    
+    
+    
     //组件 类型
     var componentType = GBHomepageBaseComponentType.unknown
     //组件 滚动方向
@@ -36,7 +39,7 @@ class GBHomepageComponentFullSet: GBHomepageBaseComponent {
     
     //内容 滚动方向
     var contentCellsScrollDirection = GBHomepageComponentScrollDirection.fix
-    //内容 排序方式
+    //内容 排序方式https://www.youtube.com/watch?v=d2vUbAK0c5U
     var contentCellsFlowDirection = GBHomepageComponentCellFlowDirection.horizontal
     
     //主体内容 cells
