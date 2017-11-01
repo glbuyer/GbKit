@@ -31,7 +31,7 @@ class GBHomepageView: GBBaseModel {
     var components = [GBHomepageComponentGeneric]()
     
     //page 高度 对于 750px 宽度屏幕
-    var pageHeightTo750pxHeight:Double = 600
+    var pageHeightTo750pxWidth:Double = 600
     //page 宽度 对于 750px 宽度屏幕
     var pageWidthTo750pxWidth:Double = 750
     

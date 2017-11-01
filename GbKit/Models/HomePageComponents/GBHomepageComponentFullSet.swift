@@ -23,6 +23,8 @@ class GBHomepageComponentFullSet: GBHomepageBaseComponent {
     
     //组件 高度 对于 750px 宽度屏幕
     var componentHeightTo750pxWidth:Double = 200
+    //组件 宽度 对于 750px 宽度屏幕
+    var componentWidthTo750pxWidth:Double = 750
     
     //组件内容 宽度 对于 750px 宽度屏幕
     var contentSizeWidthTo750pxWidth:Double = 750
