@@ -105,6 +105,9 @@ class GBUser:GBBaseModel {
     //已绑定的账户类型
     var bindingAccountTypes = [GBUserBindingAccountType]()
     
+    //账户安全等级
+    var securityLevel = 1;
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)
