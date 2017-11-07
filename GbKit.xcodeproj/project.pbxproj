@@ -37,6 +37,8 @@
 		9877469E1F947B8300DED880 /* GBProductOtherSubtype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877469D1F947B8300DED880 /* GBProductOtherSubtype.swift */; };
 		98991F0D1F67B9F7000F8D8F /* GBProductForBuyerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */; };
 		98991F0F1F67BA0F000F8D8F /* GBProductForAdminView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */; };
+		989FEE2A1FB1811D00922A3B /* GBHomepageComponentSectionTitleType1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE291FB1811D00922A3B /* GBHomepageComponentSectionTitleType1.swift */; };
+		989FEE2C1FB181BC00922A3B /* GBHomepageComponentSectionTitleType2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989FEE2B1FB181BC00922A3B /* GBHomepageComponentSectionTitleType2.swift */; };
 		98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE11F43C64B0083BC37 /* GBArea.swift */; };
 		98AACBE41F43C8E90083BC37 /* GBTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE31F43C8E90083BC37 /* GBTag.swift */; };
 		98AACBE61F43CD200083BC37 /* GBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AACBE51F43CD200083BC37 /* GBCell.swift */; };
@@ -117,6 +119,8 @@
 		9877469D1F947B8300DED880 /* GBProductOtherSubtype.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductOtherSubtype.swift; sourceTree = "<group>"; };
 		98991F0C1F67B9F7000F8D8F /* GBProductForBuyerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForBuyerView.swift; sourceTree = "<group>"; };
 		98991F0E1F67BA0F000F8D8F /* GBProductForAdminView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBProductForAdminView.swift; sourceTree = "<group>"; };
+		989FEE291FB1811D00922A3B /* GBHomepageComponentSectionTitleType1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentSectionTitleType1.swift; sourceTree = "<group>"; };
+		989FEE2B1FB181BC00922A3B /* GBHomepageComponentSectionTitleType2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBHomepageComponentSectionTitleType2.swift; sourceTree = "<group>"; };
 		98AACBE11F43C64B0083BC37 /* GBArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBArea.swift; sourceTree = "<group>"; };
 		98AACBE31F43C8E90083BC37 /* GBTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBTag.swift; sourceTree = "<group>"; };
 		98AACBE51F43CD200083BC37 /* GBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBCell.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 				9826F9811F9EDCD200C217C4 /* GBHomepageComponentType1.swift */,
 				9826F9831F9EDDB900C217C4 /* GBHomepageComponentType2.swift */,
 				9826F98B1F9F08F200C217C4 /* GBHomepageComponentProductsTail.swift */,
+				989FEE291FB1811D00922A3B /* GBHomepageComponentSectionTitleType1.swift */,
+				989FEE2B1FB181BC00922A3B /* GBHomepageComponentSectionTitleType2.swift */,
 				9826F9851F9EDE7A00C217C4 /* GBHomepageView.swift */,
 				9826F9871F9EE06F00C217C4 /* GBHomepageComponentGeneric.swift */,
 			);
@@ -501,6 +507,7 @@
 				98EFB3261F3D79030026B000 /* GBIdInfo.swift in Sources */,
 				98BEF0941F5918CA00E998BC /* GBCurrencyExchange.swift in Sources */,
 				983B3A321F590A9000C02D33 /* GBPreOrders.swift in Sources */,
+				989FEE2C1FB181BC00922A3B /* GBHomepageComponentSectionTitleType2.swift in Sources */,
 				983B3A3A1F590D3800C02D33 /* GBPreOrderProductItem.swift in Sources */,
 				98AF6D431F5E356C00140AE5 /* GBShop.swift in Sources */,
 				98BAEF8F1FA82BF700B7326E /* GBHomepageComponentFullSet.swift in Sources */,
@@ -509,6 +516,7 @@
 				9826F9801F9EC69F00C217C4 /* GBHomepageComponentIconsWithBottomSubtitle.swift in Sources */,
 				983B3A341F590AB000C02D33 /* GBPreOrderSection.swift in Sources */,
 				98EFB32D1F42D2C20026B000 /* GBProductSubtype.swift in Sources */,
+				989FEE2A1FB1811D00922A3B /* GBHomepageComponentSectionTitleType1.swift in Sources */,
 				98EFB3241F3D745C0026B000 /* GBBaseModel.swift in Sources */,
 				98AACBE21F43C64B0083BC37 /* GBArea.swift in Sources */,
 				9826F98C1F9F08F200C217C4 /* GBHomepageComponentProductsTail.swift in Sources */,

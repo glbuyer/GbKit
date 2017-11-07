@@ -18,6 +18,12 @@ enum GBHomepageBaseComponentType : String {
     case componentType2 = "COMPONENT_TYPE2"
     //尾部商品
     case productsTail = "PRODUCTS_TAIL"
+    
+    //组件标题风格一号 左对齐
+    case sectionTitleType1 = "SECTION_TITLE_TYPE1"
+    //组件标题风格二号 居中对齐
+    case sectionTitleType2 = "SECTION_TITLE_TYPE2"
+
     //未知
     case unknown = "UNKNOWN"
 }
