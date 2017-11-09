@@ -171,6 +171,13 @@ class GBProduct:GBBaseModel {
     
     //买手建议 shop 价格
     var buyerSuggestLocalShopPrice = 0
+    
+    //利润率
+    var profitRate:Double = 0
+    
+    //审核状态显示
+    var examineStatusDisplay = ""
+    
 
     // Mappable
     override func mapping(map: Map) {

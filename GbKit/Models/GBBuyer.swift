@@ -16,11 +16,12 @@ class GBBuyer:GBCustomer {
     
     //销售数额
     var salesAmount = 0
-    //买手保证金
+    //买手保证金 当地货币
     var asBuyerDeposit:Double = 0.00
-    //买手保证金缴纳目标
+    //买手保证金缴纳目标 当地货币
     var asBuyerDepositTarget:Double = 200
-
+    
+    
     
     //作为时尚买手销售额
     var fashionBuyerSaleAmount:Double = 0.00
@@ -35,9 +36,9 @@ class GBBuyer:GBCustomer {
     //作为时尚买手评论总数
     var fashionBuyerCommentAmount = 0
     //作为生活买手评论总数
-    var lifeBuyerSaleCommentAmount = 0
+    var lifeBuyerCommentAmount = 0
     //作为健康买手评论总数
-    var healthBuyerSaleCommentAmount = 0
+    var healthBuyerCommentAmount = 0
     //作为文娱买手评论总数
     var entertainmentBuyerCommentAmount = 0
     
