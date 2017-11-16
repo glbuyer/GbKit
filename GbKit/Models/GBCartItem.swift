@@ -26,6 +26,10 @@ class GBCartItem:GBProductItem {
     //购物车条目状态
     var shoppingCartItemStatus = GBShoppingCartItemStatus.allowToCheckOut
     
+    //购物车条目无效原因
+    var shoppingCartItemInvalidReason = ""
+
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

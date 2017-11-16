@@ -11,15 +11,15 @@ import ObjectMapper
 
 enum GBDelegateOrderStatus : String {
     //等待抢单
-    case waitForSnatching = "waiting_for_snatching"
+    case waitForSnatching = "WAIT_FOR_SNATCHING"
     //等待发货
-    case snatched = "snatched"
+    case snatched = "SNATCHED"
     //等待买家收货
-    case delivered = "delivered"
+    case delivered = "DELIVERED"
     //已取消
-    case cancelled = "cancelled"
+    case cancelled = "CANCELLED"
     
-    case other = "other"
+    case unknown = "UNKNOWN"
 }
 
 
@@ -57,8 +57,8 @@ class GBDelegateOrder:GBBaseModel {
     //合计价格 = 商品合计代发价格 + 代发运费 + 感谢费
     var localDelegateOrderAmount:Double = 0
     
-    //代发订单，代发买手利润 = 合计价格 - sum (代发商品成本价 * 代发商品数量) - 代发运费
-    var localDelegateOrderProfit:Double = 0
+//    //代发订单，代发买手利润 = 合计价格 - sum (代发商品成本价 * 代发商品数量) - 代发运费
+//    var localDelegateOrderProfit:Double = 0
 
 //
 //    //代发订单全集信息

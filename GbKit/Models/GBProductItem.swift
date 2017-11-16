@@ -20,6 +20,10 @@ class GBProductItem:GBBaseModel {
     //子分类显示
     var productSubtypesDisplay = ""
 
+    //子分类ids
+    var subtype_item_ids = ""
+    
+
     
     // Mappable
     override func mapping(map: Map) {
