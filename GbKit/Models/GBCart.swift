@@ -9,6 +9,15 @@
 import Foundation
 import ObjectMapper
 
+enum GBShoppingCartGroupType : String {
+    //已设置买手
+    case setBuyer = "SET_BUYER"
+    //未设置买手
+    case unsetBuyer = "UNSET_BUYER"
+    //失效的商品
+    case invalidItems = "INVALID_ITEMS"
+}
+
 class GBCart:GBBaseModel {
     
     //购物车条目
@@ -19,6 +28,9 @@ class GBCart:GBBaseModel {
     
     //地区信息
     var area:GBArea?
+    
+    //购物车分组类型
+    var cartGroupType = GBShoppingCartGroupType.unsetBuyer
     
     
     // Mappable

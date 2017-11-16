@@ -145,7 +145,7 @@ class GBHomepageCell:GBBaseModel {
     //cell image url
     var cellImageUrls = [String]()
     //cell subtitles
-    var cellSubtitles = [String]()
+    var cellSubTitles = [String]()
     //cell 链接类型
     var cellLinkType = GBHomepageCellLinkType.notAppliable
     //cell 标示内容

@@ -29,6 +29,7 @@ class GBShopBranch:GBShop {
     
     
     
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

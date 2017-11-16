@@ -9,6 +9,10 @@
 import Foundation
 import ObjectMapper
 
+enum GBBuyerBehaviorPermission:String {
+    case receiveDelegateOrder = "RECEIVE_DELEGATE_ORDER"
+}
+
 class GBBuyer:GBCustomer {
     
     //作为买手头像
@@ -89,6 +93,40 @@ class GBBuyer:GBCustomer {
     
     //买手主页 bar 背景图
     var homepageBackgroundImageUrl = ""
+    
+    //身份证件类型
+    var userIdInfoType = ""
+    //身份证件 id
+    var userIdInfoNumber = ""
+    //买手银行名称
+    var userBankName = ""
+    //买手银行支付货币类型
+    var userBankPaymentCurrencyType = "CNY"
+    //买手银行用户名
+    var userBankInfoUsername = ""
+    //买手银行bsb
+    var userBankInfoBsb = ""
+    //买手银行账户
+    var userBankAccountNumber = ""
+    
+    //学历
+    var userDegree = ""
+    //当前职业
+    var userCurrentPosition = ""
+    //所在地地址
+    var userLocalAddress = ""
+    //中国地址
+    var userChineseAddress = ""
+    //签证信息
+    var userVisaInfo = ""
+    //认证地区
+    var registerAreaName = ""
+    
+    //买手注册地
+    var registerAreaIds = [String]()
+    
+    //买手权限
+    var buyerBehaviorPermissions = [GBBuyerBehaviorPermission]()
     
     // Mappable
     override func mapping(map: Map) {

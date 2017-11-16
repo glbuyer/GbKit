@@ -27,6 +27,11 @@ class GBShop:GBBaseModel {
     var shopDescription = ""
     
 
+    //商店主页背景图
+    var homepageBackgroundImageUrl = ""
+    
+    //商店主页 tab bar
+    var searchTagTabs = [GBHomepageCell]()
 
     // Mappable
     override func mapping(map: Map) {
