@@ -40,6 +40,9 @@ class GBAddress:GBBaseModel {
     var idInfo = GBIdInfo()
     //是否为默认地址
     var setAsDefault = false
+    
+    //地址展示
+    var addressDisplay = ""
 
     
     // Mappable

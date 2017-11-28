@@ -23,10 +23,8 @@ enum GBDelegateOrderStatus : String {
 }
 
 
-class GBDelegateOrder:GBBaseModel {
+class GBDelegateOrder:GBOrder {
     
-    //订单ID
-    var orderId = ""
     //代理订单ID
     var delegateOrderId = ""
     //代理订单状态
@@ -56,6 +54,8 @@ class GBDelegateOrder:GBBaseModel {
     var localDelegateShippingFee:Double = 0
     //合计价格 = 商品合计代发价格 + 代发运费 + 感谢费
     var localDelegateOrderAmount:Double = 0
+    //代发订单所属地
+    var deleateOrderArea = GBArea()
     
 //    //代发订单，代发买手利润 = 合计价格 - sum (代发商品成本价 * 代发商品数量) - 代发运费
 //    var localDelegateOrderProfit:Double = 0
@@ -66,8 +66,8 @@ class GBDelegateOrder:GBBaseModel {
 //
 //    //代发买手 将收款 = 未退款商品代发总价 + 未退款商品运费 + 感谢费
 //    var localDelegateBuyerShouldReceiveAmount = 0.00
-//
-//
+
+    
     // Mappable
     override func mapping(map: Map) {
         super.mapping(map: map)

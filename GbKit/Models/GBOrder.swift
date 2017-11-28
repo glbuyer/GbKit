@@ -250,9 +250,9 @@ class GBOrder:GBBaseModel {
 
     
     //商品总数量
-    var productAmount = 0
+    var productQuantity = 0
     //未退款商品总数量
-    var notRefundProductAmount = 0
+    var notRefundProductQuantity = 0
     
     //条目物流
     var shippingItems = [String]()

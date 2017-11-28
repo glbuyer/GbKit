@@ -23,6 +23,7 @@ class GBProductItem:GBBaseModel {
     //子分类ids
     var subtype_item_ids = ""
     
+    
 
     
     // Mappable

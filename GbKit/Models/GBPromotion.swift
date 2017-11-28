@@ -32,6 +32,8 @@ enum GBCustomerDiscountMethod : String {
     case COUPON = "coupon"
     //通用推广币
     case PROMOTION_COIN = "promotion-coin"
+    //免邮令牌
+    case DISOUNT_SHIPPING_FREE = "discount-shipping-free"
     
 }
 
