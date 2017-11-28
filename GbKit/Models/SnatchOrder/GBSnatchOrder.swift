@@ -18,31 +18,13 @@ enum GBSnatchOrderType : String {
     
 }
 
-class GBSnatchOrder:GBBaseModel {
+class GBSnatchOrder:GBDelegateOrder {
     
     //抢单类型
     var snatchOrderType = GBSnatchOrderType.normalOrder
     
-    //订单 ID
-    var orderId = ""
-    
-    //代发订单 ID
-    var delegateOrderId = ""
-    
-    //可抢商品总数
-    var availableSnatchProductQuantity:Int = 0
-    
-    //商品条目
-    var availableSnatchOrderItems = [GBOrderItem]()
-    
-    //抢单利润
-    var localSnatchOrderProfit:Double = 0
-    
-    //发货时间要求
-    var deliveryTimeRequirementInHours = 48
-    
-    //订单所属地区
-    var orderArea = GBArea()
+    //剩余发货时间显示
+    var remainingDeliveryTimeDisplay = ""
 
     
 }
