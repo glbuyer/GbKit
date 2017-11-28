@@ -265,11 +265,14 @@ class GBOrder:GBBaseModel {
     var statusTitle = ""
     //订单当前状态副标题
     var statusSubTitle = ""
+    //订单背景图片名称
+    var statusBackgroundImageName = ""
+    
+    
     //订单中心 当前状态指示
     var orderCenterStatusHint = ""
 
     var nextStatusTime = -1
-    
     
 
     
@@ -283,7 +286,8 @@ class GBOrder:GBBaseModel {
     //订单代发买手指配类型
     var orderDelegateBuyerAssignMethod = GBOrderDelegateBuyerAssignMethod.SNATCH_ORDER_DELEGATE_BUYER
     
-    
+    //接单买手订单操作内容
+    var originalBuyerOperations = [String]()
     
 
     //代发订单集合
