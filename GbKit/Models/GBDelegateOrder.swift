@@ -58,11 +58,13 @@ class GBDelegateOrder:GBOrder {
     
     
     
-    //代理买手id
-    var delegateBuyerId = ""
+
+    //接单买手
+    var originalBuyer:GBBuyer?
     //代发买手
     var delegateBuyer:GBDelegateBuyer?
-    
+    //代理买手id
+    var delegateBuyerId = ""
 
     
 
