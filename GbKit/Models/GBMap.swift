@@ -21,7 +21,7 @@ class GBMap:GBBaseModel {
     var mapBoundary = [Double]()
     
     //默认地图缩放比例 for iOS
-    var defaultMapSpanRateForIOS:Double = 0
+    var defaultMapSpanRateForIos:Double = 0
     //默认地图缩放比例 for Android
     var defaultMapSpanRateForAndroid:Double = 0
     
