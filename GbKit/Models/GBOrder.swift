@@ -208,19 +208,20 @@ class GBOrder:GBBaseModel {
     var buyerDiscountActivationCode = ""
  
     //订单创建时间
-    var createTime = ""
+    var createTime:Int?
     //订单支付时间
-    var payTime = ""
+    var payTime:Int?
     //订单设置买手时间
-    var setBuyerTime = ""
+    var setBuyerTime:Int?
     //订单被买手抢时间
-    var snatchedTime = ""
+    var snatchedTime:Int?
     //订单发货时间
-    var deliveredTime = ""
+    var deliveredTime:Int?
     //订单确认收货时间
-    var confirmReceivingTime = ""
+    var confirmReceivingTime:Int?
     //系统订单确认收货时间
-    var systemConfirmReceivingTime = ""
+    var systemConfirmReceivingTime:Int?
+    
     
     //订单取消时间
     var orderCancelTime = ""
@@ -294,6 +295,8 @@ class GBOrder:GBBaseModel {
     var delegateOrders = [GBDelegateOrder]()
     
   
+    //服务器当前时间
+    var currentTime:Int?
     
     // Mappable
     override func mapping(map: Map) {
