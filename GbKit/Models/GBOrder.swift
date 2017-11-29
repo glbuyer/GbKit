@@ -266,8 +266,8 @@ class GBOrder:GBBaseModel {
     var statusTitle = ""
     //订单当前状态副标题
     var statusSubTitle = ""
-    //订单背景图片名称
-    var statusBackgroundImageName = ""
+    //订单背景图片URL
+    var statusBackgroundImageUrl = ""
     
     
     //订单中心 当前状态指示
