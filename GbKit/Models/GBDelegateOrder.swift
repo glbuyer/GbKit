@@ -21,6 +21,11 @@ enum GBDelegateOrderStatus : String {
     case delivered = "DELIVERED"
     //已取消
     case cancelled = "CANCELLED"
+    //等待代发买手响应
+    case cancelled = "WAIT_FOR_DELEGATE_BUYER_RESPONSE"
+    
+    //已确认收货
+    case cancelled = "CONFIRM_RECEIVING"
     
     case unknown = "UNKNOWN"
 }
@@ -68,8 +73,17 @@ class GBDelegateOrder:GBOrder {
 
     
 
+    //创建时间
+    var creatTime: Int?
+    //发货时间
+    var deliverOrderTime: Int?
+    //确认收货时间
+    var confirmReceivingTime: Int?
+    //取消代发订单时间
+    var cancelTime: Int?
+    
     //设置代发买手时间
-    var setDelegateBuyerTime = -1
+    var setDelegateBuyerTime: Int?
     
     //代发商品条目
     var delegateOrderItems = [GBOrderItem]()
