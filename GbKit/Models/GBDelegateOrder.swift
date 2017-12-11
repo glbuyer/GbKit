@@ -23,9 +23,8 @@ enum GBDelegateOrderStatus : String {
     case cancelled = "CANCELLED"
     //等待代发买手响应
     case cancelled = "WAIT_FOR_DELEGATE_BUYER_RESPONSE"
-    
     //已确认收货
-    case cancelled = "CONFIRM_RECEIVING"
+    case confirmReceiving = "CONFIRM_RECEIVING"
     
     case unknown = "UNKNOWN"
 }
@@ -87,7 +86,19 @@ class GBDelegateOrder:GBOrder {
     
     //代发商品条目
     var delegateOrderItems = [GBOrderItem]()
+
     
+    //当前系统时间
+    var currentTime: Int?
+    //下一状态时间（当该值为 null 或 -1 时，表示无下一状态）
+    var nextStatusTime: Int = -1
+    
+    //代发买手视角下代发订单状态显示内容
+    var delegateOrderStatusDisplayViewByDelegateBuyer = ""
+
+    //代发买手视角下代发订单状态显示内容 尾部补足 （用于拼装 中间部分 倒计时）
+    var delegateOrderStatusDisplayViewByDelegateBuyerTail = ""
+
     
     // Mappable
     override func mapping(map: Map) {
