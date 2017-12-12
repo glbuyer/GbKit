@@ -29,6 +29,10 @@ enum GBHomepageCellKeyType : String {
     case webLink = "WEB_LINK"
     //homepage id
     case homepageId = "HOMEPAGE_ID"
+    
+    //订单 id
+    case orderId = "ORDER_ID"
+    
     //不可用
     case notAppliable = "N/A"
 }
@@ -132,6 +136,24 @@ enum GBHomepageCellLinkType : String {
      cellKey 转跳页面的 page id
      */
     case homepageView = "HOMEPAGE_VIEW"
+    
+    //订单详情页
+    /**
+     该链接类型转跳的下一个页面为 指定订单id 的 订单详情页面
+     cellKeyType 只可能为 ORDER_ID，
+     cellKey 转跳页面的 order id
+     */
+    case orderDetail = "ORDER_DETAIL"
+    
+    //最近联系人列表
+    /**
+     该链接类型转跳的下一个页面为 指定订单id 的 订单详情页面
+     cellKeyType N/A，
+     cellKey 无需
+     */
+    case messageList = "MESSAGE_LIST"
+
+    
     //不可用
     case notAppliable = "N/A"
 }
