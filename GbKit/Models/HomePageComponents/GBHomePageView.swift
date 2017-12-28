@@ -11,7 +11,8 @@ enum GBHomepageType : String {
     case productRootHomepage = "PRODUCT_ROOT_HOMEPAGE"
     //主页类型1
     case homepageTyp1 = "HOMEPAGE_TYPE1"
-    //主页类型2
+    
+    //商品列表主页
     case homepageTyp2 = "HOMEPAGE_TYPE2"
 
     //未知

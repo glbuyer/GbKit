@@ -30,6 +30,9 @@ enum GBHomepageCellKeyType : String {
     //homepage id
     case homepageId = "HOMEPAGE_ID"
     
+    //api link
+    case apiLink = "API_LINK"
+    
     //订单 id
     case orderId = "ORDER_ID"
     
@@ -55,17 +58,7 @@ enum GBHomepageCellLinkType : String {
      cellKey 为 对应商品的 product id 和 买手 id
      */
     case productDetailWithBuyer = "PRODUCT_DETAIL_WITH_BUYER"
-    //商品搜索结果list
-    /**
-     该链接类型转跳的下一个页面为 搜索指定关键字 的 商品列表页面
-     页面参考url {base_url}/product/customerView/list/{offset}/{count}
-     url POST BODY = {
-        "keywords":"奶粉" //cellKey 为对应的搜索关键字
-     }
-     cellKeyType 只可能为 SEARCH_KEYWORDS，
-     cellKey 为对应的搜索关键字
-     */
-    case searchProductList = "SEARCH_PRODUCT_LIST"
+
     //买手搜索结果list
     /**
      该链接类型转跳的下一个页面为 搜索指定关键字 的 买手列表页面
@@ -77,18 +70,7 @@ enum GBHomepageCellLinkType : String {
      cellKey 为对应的搜索关键字
      */
     case searchBuyerList = "SEARCH_BUYER_LIST"
-    //折扣商品搜索结果页面
-    /**
-     该链接类型转跳的下一个页面为 搜索指定关键字 的 商品列表页面
-     页面参考url {base_url}/product/customerView/list/{offset}/{count}
-     url POST BODY = {
-        "keywords":"奶粉" //cellKey 为对应的搜索关键字,
-        "search_tag":"discount_products" //固定传参
-     }
-     cellKeyType 只可能为 SEARCH_KEYWORDS，
-     cellKey 为对应的搜索关键字
-     */
-    case searchDiscountProductList = "SEARCH_DISCOUNT_PRODUCT_LIST"
+
     //滚动到section
     /**
      该链接类型 执行 页面滚动到指定 下标 的 component
@@ -128,14 +110,26 @@ enum GBHomepageCellLinkType : String {
      cellKey 买手id
      */
     case buyerHomepage = "BUYER_HOMEPAGE"
-    //下一主页
+    
+    //商品列表主页
     /**
-     该链接类型转跳的下一个页面为 指定id 的 自定义主页
-     页面参考url {base_url}/homepage/formatProductHomePage/{version}
-     cellKeyType 只可能为 HOMEPAGE_ID，
-     cellKey 转跳页面的 page id
+     该链接类型转跳的下一个页面为 指定id 的 自定义商品列表主页
+     页面参考url {base_url}/homepage/formatProductHomePage/{page_id}
+     cellKeyType 只可能为 API_LINK，
+     cellKey 转跳页面的数据获取API,GET 方式获取，需要自行拼接base url,例：homepage/formatProductHomePage/1
      */
-    case homepageView = "HOMEPAGE_VIEW"
+    case productListHomepage = "PRODUCT_LIST_HOMEPAGE"
+    
+    //商品主页
+    /**
+     该链接类型转跳的下一个页面为 指定id 的 自定义商品主页
+     页面参考url {base_url}/homepage/formatProductHomePage/{page_id}
+     cellKeyType 只可能为 API_LINK，
+     cellKey 转跳页面的数据获取API,GET 方式获取，需要自行拼接base url,例：homepage/formatProductHomePage/2
+     */
+    
+    case productRootHomepage = "PRODUCT_ROOT_HOMEPAGE"
+    
     
     //订单详情页
     /**
